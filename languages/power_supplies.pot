@@ -1,0 +1,1179 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: frmactivehelp.message01
+msgid "Help file error!"
+msgstr ""
+
+#: frmactivehelp.message02
+msgid "There is not help file!"
+msgstr ""
+
+#: frmactivehelp.message03
+msgid "(There is not picture!)"
+msgstr ""
+
+#: frmmain.message03
+msgid "Off-line"
+msgstr ""
+
+#: frmmain.message04
+msgid "On-line"
+msgstr ""
+
+#: frmmain.message05
+msgid "New version is available. Please visit homepage!"
+msgstr ""
+
+#: frmmain.message06
+msgid "Save report to file"
+msgstr ""
+
+#: frmmain.message07
+msgid "text files (*.txt)|*.txt| all files (*.*)|*.*|"
+msgstr ""
+
+#: frmmain.message08
+msgid "Write error"
+msgstr ""
+
+#: frmmain.message09
+msgid "File exists, overwrite?"
+msgstr ""
+
+#: frmmain.message13
+msgid " No picture!"
+msgstr ""
+
+#: frmmain.message14
+msgid "Do you want to save your work?"
+msgstr ""
+
+#: frmmain.message15
+msgid "Bad value, fix it"
+msgstr ""
+
+#: frmmain.message16
+msgid "There is not newer version."
+msgstr ""
+
+#: frmmain.message17
+msgid "Sizing report"
+msgstr ""
+
+#: frmmain.message18
+msgid "Warning! Calculating error, the result can be wrong."
+msgstr ""
+
+#: frmmain.message19
+msgid "Save initial values"
+msgstr ""
+
+#: frmmain.message20
+msgid "values files (*.cav)|*.cav| all files (*.*)|*.*|"
+msgstr ""
+
+#: frmmain.message21
+msgid "Load initial values"
+msgstr ""
+
+#: frmmain.message22
+msgid "This file is not owned by this application!"
+msgstr ""
+
+#: frmmain.message23
+msgid "Saved data is not compatible this module!"
+msgstr ""
+
+#: frmmain.message24
+msgid "Different version application has saved this file!"
+msgstr ""
+
+#: frmmain.message25
+msgid "Read error!"
+msgstr ""
+
+#: frmmain.message26
+msgid "Print report"
+msgstr ""
+
+#: frmmain.message27
+msgid "Print error!"
+msgstr ""
+
+#: frmmain.message28
+msgid "Schematic draw"
+msgstr ""
+
+#: frmmain.message29
+msgid "result.txt"
+msgstr ""
+
+#: frmpref.message01
+msgid "Select browser application"
+msgstr ""
+
+#: frmpref.message02
+msgid "Select mailer application"
+msgstr ""
+
+#: frmpref.message03
+msgid "executables|*.exe|all files|*.*"
+msgstr ""
+
+#: frmpref.message04
+msgid "all files|*.*"
+msgstr ""
+
+#: frmpref.message05
+msgid "Off-line"
+msgstr ""
+
+#: frmpref.message06
+msgid "On-line"
+msgstr ""
+
+#: module_01.message01
+msgid "Collins-filter"
+msgstr ""
+
+#: module_01.message02
+msgid "Z1|kΩ|input impedance"
+msgstr ""
+
+#: module_01.message03
+msgid "Z2|kΩ|output impedance"
+msgstr ""
+
+#: module_01.message04
+msgid "f|MHz|frequency"
+msgstr ""
+
+#: module_01.message05
+msgid "Q| |quality factor"
+msgstr ""
+
+#: module_01.message06
+msgid "C1|pF|capacitor"
+msgstr ""
+
+#: module_01.message07
+msgid "C2|pF|capacitor"
+msgstr ""
+
+#: module_01.message08
+msgid "L|µH|inductor"
+msgstr ""
+
+#: module_01.message09
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_02.message01
+msgid "Seefried impedance transformer"
+msgstr ""
+
+#: module_02.message02
+msgid "Z1|Ω|input impedance"
+msgstr ""
+
+#: module_02.message03
+msgid "Z2|Ω|output impedance"
+msgstr ""
+
+#: module_02.message04
+msgid "f|MHz|frequency"
+msgstr ""
+
+#: module_02.message05
+msgid "C|pF|capacitor"
+msgstr ""
+
+#: module_02.message06
+msgid "L|µH|inductors"
+msgstr ""
+
+#: module_02.message07
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_03.message01
+msgid "Two way crossover filter #1"
+msgstr ""
+
+#: module_03.message02
+msgid "f|kHz|crossover frequency"
+msgstr ""
+
+#: module_03.message03
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_03.message04
+msgid "C|µF|capacitor"
+msgstr ""
+
+#: module_03.message05
+msgid "L|µH|inductor"
+msgstr ""
+
+#: module_03.message06
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_04.message01
+msgid "Two way crossover filter #2"
+msgstr ""
+
+#: module_04.message02
+msgid "f|kHz|crossover frequency"
+msgstr ""
+
+#: module_04.message03
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_04.message04
+msgid "C|µF|capacitor"
+msgstr ""
+
+#: module_04.message05
+msgid "L|µH|inductor"
+msgstr ""
+
+#: module_04.message06
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_05.message01
+msgid "Two way crossover filter #3"
+msgstr ""
+
+#: module_05.message02
+msgid "f|kHz|crossover frequency"
+msgstr ""
+
+#: module_05.message03
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_05.message04
+msgid "C|µF|capacitor"
+msgstr ""
+
+#: module_05.message05
+msgid "L1|µH|inductor"
+msgstr ""
+
+#: module_05.message06
+msgid "L2|µH|inductor"
+msgstr ""
+
+#: module_05.message07
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_06.message01
+msgid "Two way crossover filter #4"
+msgstr ""
+
+#: module_06.message02
+msgid "f|kHz|crossover frequency"
+msgstr ""
+
+#: module_06.message03
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_06.message04
+msgid "C|µF|capacitor"
+msgstr ""
+
+#: module_06.message05
+msgid "L|µH|inductor"
+msgstr ""
+
+#: module_06.message06
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_07.message01
+msgid "Two way crossover filter #5"
+msgstr ""
+
+#: module_07.message02
+msgid "f|kHz|crossover frequency"
+msgstr ""
+
+#: module_07.message03
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_07.message04
+msgid "C1|µF|capacitor"
+msgstr ""
+
+#: module_07.message05
+msgid "C1|µF|capacitor"
+msgstr ""
+
+#: module_07.message06
+msgid "C2|µF|capacitor"
+msgstr ""
+
+#: module_07.message07
+msgid "C3|µF|capacitor"
+msgstr ""
+
+#: module_07.message08
+msgid "L1|µH|inductor"
+msgstr ""
+
+#: module_07.message09
+msgid "L2|µH|inductor"
+msgstr ""
+
+#: module_07.message10
+msgid "L3|µH|inductor"
+msgstr ""
+
+#: module_07.message11
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_08.message01
+msgid "Two way crossover filter #6"
+msgstr ""
+
+#: module_08.message02
+msgid "f|kHz|crossover frequency"
+msgstr ""
+
+#: module_08.message03
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_08.message04
+msgid "C1|µF|capacitor"
+msgstr ""
+
+#: module_08.message05
+msgid "C1|µF|capacitor"
+msgstr ""
+
+#: module_08.message06
+msgid "C2|µF|capacitor"
+msgstr ""
+
+#: module_08.message07
+msgid "C3|µF|capacitor"
+msgstr ""
+
+#: module_08.message08
+msgid "L1|µH|inductor"
+msgstr ""
+
+#: module_08.message09
+msgid "L2|µH|inductor"
+msgstr ""
+
+#: module_08.message10
+msgid "L3|µH|inductor"
+msgstr ""
+
+#: module_08.message11
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_09.message01
+msgid "Asymmetric low pass L-section filter"
+msgstr ""
+
+#: module_09.message02
+msgid "f|kHz|cutoff frequency"
+msgstr ""
+
+#: module_09.message03
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_09.message04
+msgid "C|nF|capacitor"
+msgstr ""
+
+#: module_09.message05
+msgid "L|µH|inductor"
+msgstr ""
+
+#: module_09.message06
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_10.message01
+msgid "Asymmetric low pass Pi-section filter"
+msgstr ""
+
+#: module_10.message02
+msgid "f|kHz|cutoff frequency"
+msgstr ""
+
+#: module_10.message03
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_10.message04
+msgid "C|nF|capacitor"
+msgstr ""
+
+#: module_10.message05
+msgid "L|µH|inductor"
+msgstr ""
+
+#: module_10.message06
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_11.message01
+msgid "Asymmetric low pass T-section filter"
+msgstr ""
+
+#: module_11.message02
+msgid "f|kHz|cutoff frequency"
+msgstr ""
+
+#: module_11.message03
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_11.message04
+msgid "C|nF|capacitor"
+msgstr ""
+
+#: module_11.message05
+msgid "L|µH|inductor"
+msgstr ""
+
+#: module_11.message06
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_12.message01
+msgid "Symmetric low pass T-section filter"
+msgstr ""
+
+#: module_12.message02
+msgid "f|kHz|cutoff frequency"
+msgstr ""
+
+#: module_12.message03
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_12.message04
+msgid "C|nF|capacitor"
+msgstr ""
+
+#: module_12.message05
+msgid "L|µH|inductor"
+msgstr ""
+
+#: module_12.message06
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_13.message01
+msgid "Symmetric low pass Pi-section filter"
+msgstr ""
+
+#: module_13.message02
+msgid "f|kHz|cutoff frequency"
+msgstr ""
+
+#: module_13.message03
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_13.message04
+msgid "C|nF|capacitor"
+msgstr ""
+
+#: module_13.message05
+msgid "L|µH|inductor"
+msgstr ""
+
+#: module_13.message06
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_14.message01
+msgid "Asymmetric high pass L-section filter"
+msgstr ""
+
+#: module_14.message02
+msgid "f|kHz|cutoff frequency"
+msgstr ""
+
+#: module_14.message03
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_14.message04
+msgid "C|nF|capacitor"
+msgstr ""
+
+#: module_14.message05
+msgid "L|µH|inductor"
+msgstr ""
+
+#: module_14.message06
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_15.message01
+msgid "Asymmetric high pass T-section filter"
+msgstr ""
+
+#: module_15.message02
+msgid "f|kHz|cutoff frequency"
+msgstr ""
+
+#: module_15.message03
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_15.message04
+msgid "C|nF|capacitor"
+msgstr ""
+
+#: module_15.message05
+msgid "L|µH|inductor"
+msgstr ""
+
+#: module_15.message06
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_16.message01
+msgid "Asymmetric high pass Pi-section filter"
+msgstr ""
+
+#: module_16.message02
+msgid "f|kHz|cutoff frequency"
+msgstr ""
+
+#: module_16.message03
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_16.message04
+msgid "C|nF|capacitor"
+msgstr ""
+
+#: module_16.message05
+msgid "L|µH|inductor"
+msgstr ""
+
+#: module_16.message06
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_17.message01
+msgid "Symmetric high pass T-section filter"
+msgstr ""
+
+#: module_17.message02
+msgid "f|kHz|cutoff frequency"
+msgstr ""
+
+#: module_17.message03
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_17.message04
+msgid "C|nF|capacitor"
+msgstr ""
+
+#: module_17.message05
+msgid "L|µH|inductor"
+msgstr ""
+
+#: module_17.message06
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_18.message01
+msgid "Symmetric high pass Pi-section filter"
+msgstr ""
+
+#: module_18.message02
+msgid "f|kHz|cutoff frequency"
+msgstr ""
+
+#: module_18.message03
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_18.message04
+msgid "C|nF|capacitor"
+msgstr ""
+
+#: module_18.message05
+msgid "L|µH|inductor"
+msgstr ""
+
+#: module_18.message06
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_19.message01
+msgid "Asymmetric band pass L-section filter"
+msgstr ""
+
+#: module_19.message02
+msgid "fmin|kHz|lower cutoff frequency"
+msgstr ""
+
+#: module_19.message03
+msgid "fmax|kHz|upper cutoff frequency"
+msgstr ""
+
+#: module_19.message04
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_19.message05
+msgid "C1|nF|capacitor"
+msgstr ""
+
+#: module_19.message06
+msgid "C2|nF|capacitor"
+msgstr ""
+
+#: module_19.message07
+msgid "L1|µH|inductor"
+msgstr ""
+
+#: module_19.message08
+msgid "L2|µH|inductor"
+msgstr ""
+
+#: module_19.message09
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_20.message01
+msgid "Asymmetric band pass T-section filter"
+msgstr ""
+
+#: module_20.message02
+msgid "fmin|kHz|lower cutoff frequency"
+msgstr ""
+
+#: module_20.message03
+msgid "fmax|kHz|upper cutoff frequency"
+msgstr ""
+
+#: module_20.message04
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_20.message05
+msgid "C1|nF|capacitor"
+msgstr ""
+
+#: module_20.message06
+msgid "C2|nF|capacitor"
+msgstr ""
+
+#: module_20.message07
+msgid "L1|µH|inductor"
+msgstr ""
+
+#: module_20.message08
+msgid "L2|µH|inductor"
+msgstr ""
+
+#: module_20.message09
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_21.message01
+msgid "Asymmetric band pass Pi-section filter"
+msgstr ""
+
+#: module_21.message02
+msgid "fmin|kHz|lower cutoff frequency"
+msgstr ""
+
+#: module_21.message03
+msgid "fmax|kHz|upper cutoff frequency"
+msgstr ""
+
+#: module_21.message04
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_21.message05
+msgid "C1|nF|capacitor"
+msgstr ""
+
+#: module_21.message06
+msgid "C2|nF|capacitor"
+msgstr ""
+
+#: module_21.message07
+msgid "L1|µH|inductor"
+msgstr ""
+
+#: module_21.message08
+msgid "L2|µH|inductor"
+msgstr ""
+
+#: module_21.message09
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_22.message01
+msgid "Symmetric band pass T-section filter"
+msgstr ""
+
+#: module_22.message02
+msgid "fmin|kHz|lower cutoff frequency"
+msgstr ""
+
+#: module_22.message03
+msgid "fmax|kHz|upper cutoff frequency"
+msgstr ""
+
+#: module_22.message04
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_22.message05
+msgid "C1|nF|capacitor"
+msgstr ""
+
+#: module_22.message06
+msgid "C2|nF|capacitor"
+msgstr ""
+
+#: module_22.message07
+msgid "L1|µH|inductor"
+msgstr ""
+
+#: module_22.message08
+msgid "L2|µH|inductor"
+msgstr ""
+
+#: module_22.message09
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_23.message01
+msgid "Asymmetric band stop L-section filter"
+msgstr ""
+
+#: module_23.message02
+msgid "fmin|kHz|lower cutoff frequency"
+msgstr ""
+
+#: module_23.message03
+msgid "fmax|kHz|upper cutoff frequency"
+msgstr ""
+
+#: module_23.message04
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_23.message05
+msgid "C1|nF|capacitor"
+msgstr ""
+
+#: module_23.message06
+msgid "C2|nF|capacitor"
+msgstr ""
+
+#: module_23.message07
+msgid "L1|µH|inductor"
+msgstr ""
+
+#: module_23.message08
+msgid "L2|µH|inductor"
+msgstr ""
+
+#: module_23.message09
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_24.message01
+msgid "Asymmetric band stop T-section filter"
+msgstr ""
+
+#: module_24.message02
+msgid "fmin|kHz|lower cutoff frequency"
+msgstr ""
+
+#: module_24.message03
+msgid "fmax|kHz|upper cutoff frequency"
+msgstr ""
+
+#: module_24.message04
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_24.message05
+msgid "C1|nF|capacitor"
+msgstr ""
+
+#: module_24.message06
+msgid "C2|nF|capacitor"
+msgstr ""
+
+#: module_24.message07
+msgid "L1|µH|inductor"
+msgstr ""
+
+#: module_24.message08
+msgid "L2|µH|inductor"
+msgstr ""
+
+#: module_24.message09
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_25.message01
+msgid "Asymmetric band stop Pi-section filter"
+msgstr ""
+
+#: module_25.message02
+msgid "fmin|kHz|lower cutoff frequency"
+msgstr ""
+
+#: module_25.message03
+msgid "fmax|kHz|upper cutoff frequency"
+msgstr ""
+
+#: module_25.message04
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_25.message05
+msgid "C1|nF|capacitor"
+msgstr ""
+
+#: module_25.message06
+msgid "C2|nF|capacitor"
+msgstr ""
+
+#: module_25.message07
+msgid "L1|µH|inductor"
+msgstr ""
+
+#: module_25.message08
+msgid "L2|µH|inductor"
+msgstr ""
+
+#: module_25.message09
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: module_26.message01
+msgid "Symmetric band stop T-section filter"
+msgstr ""
+
+#: module_26.message02
+msgid "fmin|kHz|lower cutoff frequency"
+msgstr ""
+
+#: module_26.message03
+msgid "fmax|kHz|upper cutoff frequency"
+msgstr ""
+
+#: module_26.message04
+msgid "Z|Ω|impedance"
+msgstr ""
+
+#: module_26.message05
+msgid "C1|nF|capacitor"
+msgstr ""
+
+#: module_26.message06
+msgid "C2|nF|capacitor"
+msgstr ""
+
+#: module_26.message07
+msgid "L1|µH|inductor"
+msgstr ""
+
+#: module_26.message08
+msgid "L2|µH|inductor"
+msgstr ""
+
+#: module_26.message09
+msgid "Calculation error, please check values!"
+msgstr ""
+
+#: tform1.button1.caption
+msgid "Calculate! (F3)"
+msgstr ""
+
+#: tform1.button3.caption
+msgid "Reset data (F2)"
+msgstr ""
+
+#: tform1.checkbox1.caption
+msgid "Hin&t"
+msgstr ""
+
+#: tform1.checkbox2.caption
+msgid "Hi&nt"
+msgstr ""
+
+#: tform1.checkbox3.caption
+msgid "Hi&nt"
+msgstr ""
+
+#: tform1.label1.caption
+msgid "How can I set them?"
+msgstr ""
+
+#: tform1.label2.caption
+msgid "Calculated values"
+msgstr ""
+
+#: tform1.label3.caption
+msgid "Initial values"
+msgstr ""
+
+#: tform1.label4.caption
+msgid "Parameters"
+msgstr ""
+
+#: tform1.menuitem1.caption
+msgid "&File"
+msgstr ""
+
+#: tform1.menuitem10.caption
+msgid "&Configuration"
+msgstr ""
+
+#: tform1.menuitem12.caption
+msgid "Se&ttings..."
+msgstr ""
+
+#: tform1.menuitem14.caption
+msgid "Save &report to file..."
+msgstr ""
+
+#: tform1.menuitem15.caption
+msgid "Search &new version"
+msgstr ""
+
+#: tform1.menuitem19.caption
+msgid "Save settin&gs"
+msgstr ""
+
+#: tform1.menuitem2.caption
+msgid "&Content"
+msgstr ""
+
+#: tform1.menuitem27.caption
+msgid "&Load initial values..."
+msgstr ""
+
+#: tform1.menuitem29.caption
+msgid "&Print report..."
+msgstr ""
+
+#: tform1.menuitem31.caption
+msgid "Load re&cent"
+msgstr ""
+
+#: tform1.menuitem33.caption
+msgid "On-line &bugreport"
+msgstr ""
+
+#: tform1.menuitem35.caption
+msgid "&Homepage"
+msgstr ""
+
+#: tform1.menuitem39.caption
+msgid "&Operation"
+msgstr ""
+
+#: tform1.menuitem40.caption
+msgid "&Reset data"
+msgstr ""
+
+#: tform1.menuitem41.caption
+msgid "Calculate!"
+msgstr ""
+
+#: tform1.menuitem5.caption
+msgid "&Help"
+msgstr ""
+
+#: tform1.menuitem6.caption
+msgid "&About..."
+msgstr ""
+
+#: tform1.menuitem7.caption
+msgid "&Save initial values..."
+msgstr ""
+
+#: tform1.menuitem9.caption
+msgid "&Quit"
+msgstr ""
+
+#: tform1.stringgrid1.columns[0].title.caption
+msgid "Name [unit]"
+msgstr ""
+
+#: tform1.stringgrid1.columns[1].title.caption
+msgid "Value"
+msgstr ""
+
+#: tform1.stringgrid1.columns[2].title.caption
+msgid "Description"
+msgstr ""
+
+#: tform1.stringgrid2.columns[0].title.caption
+msgid "Name [unit]"
+msgstr ""
+
+#: tform1.stringgrid2.columns[1].title.caption
+msgid "Value"
+msgstr ""
+
+#: tform1.stringgrid2.columns[2].title.caption
+msgid "Description"
+msgstr ""
+
+#: tform1.stringgrid3.columns[0].title.caption
+msgid "Pos."
+msgstr ""
+
+#: tform1.stringgrid3.columns[1].title.caption
+msgid "Name [unit]"
+msgstr ""
+
+#: tform1.stringgrid3.columns[2].title.caption
+msgid "Value"
+msgstr ""
+
+#: tform1.stringgrid3.columns[3].title.caption
+msgid "Description"
+msgstr ""
+
+#: tform1.tabsheet1.caption
+msgid "General data"
+msgstr ""
+
+#: tform1.tabsheet2.caption
+msgid "Parameters of active elements"
+msgstr ""
+
+#: tform2.button1.caption
+msgid "Close"
+msgstr ""
+
+#: tform2.caption
+msgid "About"
+msgstr ""
+
+#: tform2.label1.caption
+msgid "LC-circuits v"
+msgstr ""
+
+#: tform2.label11.caption
+msgid "Copyright (C) 2011-2016 Pozsár Zsolt"
+msgstr ""
+
+#: tform2.label3.caption
+msgid "Homepage:"
+msgstr ""
+
+#: tform2.label6.caption
+msgid "E-mail:"
+msgstr ""
+
+#: tform2.label7.caption
+msgid "Licence: EUPL v1.1"
+msgstr ""
+
+#: tform4.button1.caption
+msgid "&Set"
+msgstr ""
+
+#: tform4.button2.caption
+msgid "&Cancel"
+msgstr ""
+
+#: tform4.button3.caption
+msgid "&Default"
+msgstr ""
+
+#: tform4.caption
+msgid "Preferences"
+msgstr ""
+
+#: tform4.checkbox1.caption
+msgid "Offline mode"
+msgstr ""
+
+#: tform4.checkbox2.caption
+msgid "Save history"
+msgstr ""
+
+#: tform4.label1.caption
+msgid "Browser application:"
+msgstr ""
+
+#: tform4.label2.caption
+msgid "Mailer application:"
+msgstr ""
+
+#: tform5.button1.caption
+msgid "&Close"
+msgstr ""
+
+#: tform5.button2.caption
+msgid "&Previous"
+msgstr ""
+
+#: tform5.button3.caption
+msgid "&Next"
+msgstr ""
+
+#: tform5.caption
+msgid "How can I set them?"
+msgstr ""
+
+#: tform5.label1.caption
+msgid "(Title)"
+msgstr ""
+
+#: untcommonproc.message01
+msgid "Cannot read the users's configuration file!"
+msgstr ""
+
+#: untcommonproc.message02
+msgid "Cannot write the user's configuration file!"
+msgstr ""
+
+#: untcommonproc.message03
+msgid "Please check browser application setting!"
+msgstr ""
+
+#: untcommonproc.message04
+msgid "Please check mailer application setting!"
+msgstr ""
+
+#: untcommonproc.message05
+msgid "Missing files! Please reinstall application!"
+msgstr ""
+
+#: untcommonproc.message07
+msgid "Cannot write temporary file!"
+msgstr ""
+

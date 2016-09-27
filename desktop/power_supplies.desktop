@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Power supplies
+Exec=power_supplies
+Icon=power_supplies.xpm
+Comment=Power supply calculator
+Comment[hu]=Tápegység méretezés
+Type=Application
+Categories=Application;Electronics;
+Terminal=false
+StartupNotify=true
+

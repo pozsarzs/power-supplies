@@ -1,0 +1,87 @@
+                              Telepítési utasítás
+                              ~~~~~~~~~~~~~~~~~~~
+1. FreeBSD
+~~~~~~~~~~
+a. Bináris (txz) csomagból
+
+   Használja a csomagkezelőt a telepítéshez/eltávolításhoz.
+
+b. Forrásnyelvű csomagból
+
+   Fordítás és telepítés:
+   # tar -xzf power_supplies-0.4.1.tar.gz
+   # ./configure
+   # make
+   # make install
+
+   Eltávolítás:
+   # make uninstall
+
+2. Linux
+~~~~~~~~
+a. Bináris (deb, package, rpm, txz) csomagból
+
+   Használja a csomagkezelőt a telepítéshez/eltávolításhoz.
+
+b. Bináris (bin) csomagból
+
+   Telepítés:
+   # ./power_supplies-0.4.1-i586.bin
+
+   Eltávolítás:
+   # /opt/power_supplies/uninstall
+
+c. Bináris (tar.gz) csomagból
+
+   Telepítés:
+   # cp power_supplies-0.4.1-i586.tar.gz /opt
+   # cd /opt
+   # tar -xzf power_supplies-0.4.1-i586.tar.gz
+   # cd power_supplies
+   # ./create_links
+            vagy
+   # tar -xzf power_supplies-0.4.1-i586.tar.gz
+   # cd power_supplies
+   # ./install
+
+   Eltávolítás:
+   # /opt/power_supplies/remove_links
+   # rm -r /opt/power_supplies/
+            vagy
+   # /opt/power_supplies/uninstall
+
+d. Forrásnyelvű csomagból
+
+   Fordítás és telepítés:
+   $ tar -xzf power_supplies-0.4.1.tar.gz
+   $ ./configure
+   $ make
+   # make install
+
+   Eltávolítás:
+   # make uninstall
+
+3. Windows
+~~~~~~~~~~
+a. Bináris (exe) csomagból
+
+   Futtassa a telepítőfájl és kövesse az utasításokat.
+
+b. Bináris (msi) csomagból
+
+   > msiexec.exe /i power_supplies-0.4.1-win32.msi  (vagy duplakattintással
+                                                    nyissa meg a csomagot) 
+c. Bináris (zip) csomagból
+
+   > unzip power_supplies-0.4.1-win32.zip           (vagy használjon csomagoló
+                                                    alkalmazást)
+d. Forrásnyelvű csomagból
+
+   Fordítás és telepítés:
+   > tar -xzf power_supplies-0.4.1.tar.gz           (vagy használjon csomagoló
+   > build.bat                                      alkalmazást)
+   > build.bat install
+
+   Eltávolítás:
+   > build.bat uninstall
+

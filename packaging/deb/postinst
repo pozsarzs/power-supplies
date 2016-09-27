@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdocs
+if [ "$1" = "configure" ]; then
+  if [ -d /usr/doc -a ! -e /usr/doc/lc-circuits -a -d /usr/share/doc/lc-circuits ]; then
+    ln -sf /usr/share/doc/lc-circuits /usr/doc/lc-circuits
+  fi
+fi
+if [ -x update-menus ]; then
+  update-menus
+fi
+# End automatically added section

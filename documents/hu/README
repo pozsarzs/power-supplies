@@ -1,0 +1,80 @@
+
+                           Információk az alkalmazásról
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Általános információk
+~~~~~~~~~~~~~~~~~~~~~~~~
+  Ez egy tépegység méretező alkalmazás.
+  Számítások: 
+  - Áram stabilizátor LM117/LM317/LM237/LM337 integrált áramkörrel
+  - Egyutas egyenirányító
+  - Feszültség stabilizátor gáztöltésű stabilizátorcsővel
+  - Feszültség stabilizátor LM117/LM317/LM237/LM337 integrált áramkörrel
+  - Feszültség stabilizátor Zener-diódával
+  - Graezt-hidas egyenirányító
+  - Kapacitív előtét soros fűtőkörhöz (AC 50Hz)
+  - Kétutas egyenirányító
+  - Pufferelt egyutas egyenirányító
+  - Pufferelt Graetz-hidas egyenirányító
+  - Pufferelt kétutas egyenirányító
+
+  Ez egy olyan szoftver, amely önnek nem kerül pénzbe (esetleg az internet
+használatáért kell fizetnie). Ennek egyedüli feltétele az European Union Public
+Licence elfogadása és betartása.
+
+   Operációs rendszerek: FreeBSD, Linux és Windows.
+   Nyelvi támogatás: angol és magyar. 
+
+2. Telepítő csomagok
+~~~~~~~~~~~~~~~~~~~~
+a. FreeBSD
+   power_supplies-0.4.1-FreeBSD-Port.shar   port csomag
+   power_supplies-0.4.1.txz                 bináris csomag
+
+b. Linux
+   power_supplies-0.4.1-1.i586.rpm          bináris csomag
+   power_supplies-0.4.1-i586-1.txz          bináris csomag
+   power_supplies-0.4.1-i586.bin            telepítő program
+   power_supplies-0.4.1-i586.tar.gz         bináris csomag
+   power_supplies-0.4.1.x86.package         bináris csomag
+   power_supplies_0.4.1-1_i386.deb          bináris csomag
+
+c. Windows
+   power_supplies-0.4.1-win32.exe           telepítő alkalmazás
+   power_supplies-0.4.1-win32.msi           bináris csomag
+   power_supplies-0.4.1-win32.zip           bináris csomag
+
+d. forrűskód
+   power_supplies-0.4.1.tar.gz              forrásnyelvű csomag
+
+3. Beállítások
+~~~~~~~~~~~~~~
+   FreeBSD és linux operációs rendszeren a 'LANG' környezeti változó
+használatával állíthatja be az alkalmazás nyelvét. (angol: en_US, magyar hu_HU)
+
+4. Fontos információk
+~~~~~~~~~~~~~~~~~~~~~
+   Copyright (C) 2011-2016 Pozsár Zsolt
+
+   Ez a program szabad szoftver; terjeszthetõ és/vagy módosítható az European
+Union Public License 1.1 verziója alapján.
+
+   A program annak reményében kerül terjesztésre, hogy hasznosnak bizonyul, de
+GARANCIA NÉLKÜL; még a PIACKÉPESSÉG illetve egy BIZONYOS CÉLRA VALÓ ALKALMASSÁG
+sincs garantálva.
+
+5. Letöltés és kapcsolat
+~~~~~~~~~~~~~~~~~~~~~~~~
+   Honlap:               <http://www.pozsarzs.hu>
+
+   Gyártó:               Pozsár Zsolt ev.
+   Adószám:              60407850-1-36
+   Regisztrációs szám:   20703695
+   
+   E-mail:               pozsarzs@gmail.com
+   Telefon:              +36 56/470-272
+   Telefax:              +36 56/470-272
+   Mobiltelefon:         +36 30/359-8783
+   Postai cím:           Pozsár Zsolt
+                         5430 Tiszaföldvár, Kurázsi Fő út 1.
+
