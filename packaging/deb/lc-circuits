@@ -1,2 +1,0 @@
-?package(lc-circuits):needs="X11" section="Applications/Science/Electronics"\
-        title="LC-circuits" icon="/usr/share/pixmaps/lc-circuits.xpm" command="/usr/bin/lc-circuits"

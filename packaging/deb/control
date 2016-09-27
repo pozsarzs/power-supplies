@@ -1,4 +1,4 @@
-Package: lc-circuits
+Package: power_supplies
 Version: 0.4.1
 Section: electronics
 Priority: extra
@@ -6,6 +6,6 @@ Architecture: i386
 Installed-Size: 5.7 MB
 Maintainer: Pozsar Zsolt <pozsarzs@gmail.com>
 Depends: libc6, libglib2.0-0, libgtk2.0-0
-Description: LC-circuit calculator
+Description: Power supply calculator
  Licenc: EUPL v1.1
 

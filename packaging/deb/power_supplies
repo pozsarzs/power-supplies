@@ -1,0 +1,2 @@
+?package(power_supplies):needs="X11" section="Applications/Science/Electronics"\
+        title="Power Supplies" icon="/usr/share/pixmaps/power_supplies.xpm" command="/usr/bin/power_supplies"

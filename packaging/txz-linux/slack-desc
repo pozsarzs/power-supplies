@@ -1,9 +1,9 @@
-           |-----handy-ruler-----------------------------------|
-lc-circuits: LC-circuits
-lc-circuits: LC-circuit calculator application
-lc-circuits: You can redistribute and/or modify it under the
-lc-circuits: terms of the EUPL v1.1.
-lc-circuits:
-lc-circuits: Homepage: http://www.pozsarzs.hu/en/
-lc-circuits: Package created by: Pozsar Zsolt
+              |-----handy-ruler-----------------------------------|
+power_supplies: Power Supplies
+power_supplies: Power supply calculator application
+power_supplies: You can redistribute and/or modify it under the
+power_supplies: terms of the EUPL v1.1.
+power_supplies:
+power_supplies: Homepage: http://www.pozsarzs.hu/en/
+power_supplies: Package created by: Pozsar Zsolt
 

@@ -1,49 +1,49 @@
 # +----------------------------------------------------------------------------+
-# | LC-circuits v0.4.1 * LC-circuit calculator                                 |
+# | Power Supplies v0.4.1 * Power supply calculator                            |
 # | Copyright (C) 2011-2016 Pozsar Zsolt <pozsarzs@gmail.com>                  |
 # | default.apspec                                                             |
 # | apspec file for autopackage                                                |
 # +----------------------------------------------------------------------------+
 
 [Meta]
-RootName: @pozsarzs.hu/lc-circuits:$SOFTWAREVERSION
-DisplayName: LC-circuit calculator
-ShortName: lc-circuits
+RootName: @pozsarzs.hu/power_supplies:$SOFTWAREVERSION
+DisplayName: Power supply calculator
+ShortName: power_supplies
 Maintainer: Pozsar Zsolt <pozsarzs@gmail.com>
 Packager: Pozsar Zsolt <pozsarzs@gmail.com>
-Summary: LC-circuit calculator
+Summary: Power supply calculator
 URL: http://www.pozsarzs.hu/cheapapps/cheapapps_en.html
 License: EUPL v1.1
 SoftwareVersion: 0.4.1
-Repository: http://www.pozsarzs.hu/cheapapps/lc-circuits.xml
+Repository: http://www.pozsarzs.hu/cheapapps/power_supplies.xml
 AutopackageTarget: 1.0
 
 [BuildPrepare]
 # documents
 echo $build_root
-mkdir --parent $build_root/share/lc-circuits/documents/hu
-cp $source_dir/documents/* $build_root/share/lc-circuits/documents/
-cp $source_dir/documents/hu/* $build_root/share/lc-circuits/documents/hu/
+mkdir --parent $build_root/share/power_supplies/documents/hu
+cp $source_dir/documents/* $build_root/share/power_supplies/documents/
+cp $source_dir/documents/hu/* $build_root/share/power_supplies/documents/hu/
 # figures
-mkdir --parent $build_root/share/lc-circuits/figures
-cp $source_dir/figures/* $build_root/share/lc-circuits/figures/
+mkdir --parent $build_root/share/power_supplies/figures
+cp $source_dir/figures/* $build_root/share/power_supplies/figures/
 # help
-cp $source_dir/help/*.html $build_root/share/lc-circuits/help/
-cp $source_dir/help/*.css $build_root/share/lc-circuits/help/
+cp $source_dir/help/*.html $build_root/share/power_supplies/help/
+cp $source_dir/help/*.css $build_root/share/power_supplies/help/
 # locales
-mkdir --parent $build_root/share/lc-circuits/languages/hu
-cp $source_dir/languages/* $build_root/share/lc-circuits/languages/
-cp $source_dir/languages/hu/* $build_root/share/lc-circuits/languages/hu/
+mkdir --parent $build_root/share/power_supplies/languages/hu
+cp $source_dir/languages/* $build_root/share/power_supplies/languages/
+cp $source_dir/languages/hu/* $build_root/share/power_supplies/languages/hu/
 # manuals
-mkdir --parent $build_root/share/lc-circuits/manual
-cp $source_dir/manual/* $build_root/share/lc-circuits/manual/
+mkdir --parent $build_root/share/power_supplies/manual
+cp $source_dir/manual/* $build_root/share/power_supplies/manual/
 # other files
-cp $source_dir/lc-circuits $build_root/share/lc-circuits/
-cp $source_dir/README $build_root/share/lc-circuits/README
+cp $source_dir/power_supplies $build_root/share/power_supplies/
+cp $source_dir/README $build_root/share/power_supplies/README
 mkdir --parent $build_root/share/application/
-cp $source_dir/lc-circuits.desktop $build_root/share/application/
+cp $source_dir/power_supplies.desktop $build_root/share/application/
 mkdir --parent $build_root/share/pixmaps/
-cp $source_dir/lc-circuits.xpm $build_root/share/pixmaps/
+cp $source_dir/power_supplies.xpm $build_root/share/pixmaps/
 
 [BuildUnprepare]
 unprepareBuild
@@ -56,13 +56,13 @@ echo 'share/' | import
 require @xfree86.org/xlib 6.0
 
 [Install]
-installData share/lc-circuits
+installData share/power_supplies
 outputStatus "$intl_INSTALLING_EXE"
-linkFile --silent $PREFIX/share/lc-circuits/lc-circuits $PREFIX/bin/lc-circuits
-linkFile --silent $PREFIX/share/lc-circuits/manual/lc-circuits_en.1 $PREFIX/share/man/man1/lc-circuits.1
-linkFile --silent $PREFIX/share/lc-circuits/manual/lc-circuits_hu.1 $PREFIX/share/man/hu/man1/lc-circuits.1
-installDesktop "Application/Electronics" share/application/lc-circuits.desktop
-installIcon share/pixmaps/lc-circuits.xpm
+linkFile --silent $PREFIX/share/power_supplies/power_supplies $PREFIX/bin/power_supplies
+linkFile --silent $PREFIX/share/power_supplies/manual/power_supplies_en.1 $PREFIX/share/man/man1/power_supplies.1
+linkFile --silent $PREFIX/share/power_supplies/manual/power_supplies_hu.1 $PREFIX/share/man/hu/man1/power_supplies.1
+installDesktop "Application/Electronics" share/application/power_supplies.desktop
+installIcon share/pixmaps/power_supplies.xpm
 
 [Uninstall]
 # Usually just the following line is enough to uninstall everything

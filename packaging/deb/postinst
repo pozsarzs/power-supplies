@@ -2,8 +2,8 @@
 set -e
 # Automatically added by dh_installdocs
 if [ "$1" = "configure" ]; then
-  if [ -d /usr/doc -a ! -e /usr/doc/lc-circuits -a -d /usr/share/doc/lc-circuits ]; then
-    ln -sf /usr/share/doc/lc-circuits /usr/doc/lc-circuits
+  if [ -d /usr/doc -a ! -e /usr/doc/power_supplies -a -d /usr/share/doc/power_supplies ]; then
+    ln -sf /usr/share/doc/power_supplies /usr/doc/power_supplies
   fi
 fi
 if [ -x update-menus ]; then
