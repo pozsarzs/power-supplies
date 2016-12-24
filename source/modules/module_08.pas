@@ -1,8 +1,6 @@
 { +--------------------------------------------------------------------------+ }
 { | Power Supplies v0.4.1 * Power supply calculator                          | }
 { | Copyright (C) 2011-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
-{ | LC-circuits v0.4.1 * LC-circuits                                         | }
-{ | Copyright (C) 2011-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | module_08.pas                                                            | }
 { | Module (static, fp unit - v0.3+)                                         | }
 { +--------------------------------------------------------------------------+ }
@@ -32,21 +30,26 @@ var
   ErrorMessages: array[0..15] of string;                       // Error messages
   HowToSetLinkActive: boolean;            //Enable/disable "How to set it?" link
 const
-  MODULE_ID='lc08';                                                 // Module ID
+  MODULE_ID='ps08';
 
 Resourcestring
-  MESSAGE01='Two way crossover filter #6';
-  MESSAGE02='f|kHz|crossover frequency';
-  MESSAGE03='Z|Ω|impedance';
-  MESSAGE04='C1|µF|capacitor';
-  MESSAGE05='C1|µF|capacitor';
-  MESSAGE06='C2|µF|capacitor';
-  MESSAGE07='C3|µF|capacitor';
-  MESSAGE08='L1|µH|inductor';
-  MESSAGE09='L2|µH|inductor';
-  MESSAGE10='L3|µH|inductor';
+  // Module name
+  MESSAGE01='Voltage regulator with Zener-diode';
+  // Active elements
+  MESSAGE02='D1|Uz|V|Zener voltage';
+  MESSAGE03='D1|Izmin|mA|minimal Zener current';
+  MESSAGE04='D1|Izmax|mA|maximal Zener current';
+  // Input data
+  MESSAGE05='Uinmin|V|minimal input voltage';
+  MESSAGE06='Uinmax|V|maximal input voltage';
+  MESSAGE07='Ioutmin|mA|minimal output current';
+  MESSAGE08='Ioutmax|mA|maximal output current';
+  // Output data
+  MESSAGE09='Rbmin|kΩ|minimal ballast resistor';
+  MESSAGE10='Rbmax|kΩ|maximal ballast resistor';
+  // Messages
   MESSAGE11='Calculation error, please check values!';
-
+  
 function GetName: string;
 function GetID: string;
 procedure SetActiveElements(num: byte; value: real);
@@ -60,38 +63,35 @@ function GetErrorCode: byte;
 function GetHowToSetLinkActive: boolean;
 function Calculate: byte;
 
-implementation
+Implementation
 
 // Calculation
-function Calculate: byte;var
-  z, f, c1, c2, c3, l1, l2, l3: real;
+function Calculate: byte;
+var
+  // Active elements:
+  D1Uz, D1Izmin, D1Izmax: real;
+  // Input data:
+  Uinmin, Uinmax, Ioutmin, Ioutmax: real;
+  //Output data:
+  Rbmin, Rbmax: real;
 begin
   try
-    z:=ValueDataIn[1];
-    f:=ValueDataIn[0]*1000;
-
-    c1:=1/(2*pi*f*z);
-    c2:=1/(4*pi*f*z);
-    c3:=1.6/(2*pi*f*z);
-    l1:=z/(2*pi*f);
-    l2:=(2*z)/(2*pi*f);
-    l3:=(1/1.6)*(z/(2*pi*f));
-
-    ValueDataOut[0]:=c1*1000000;
-    ValueDataOut[1]:=c2*1000000;
-    ValueDataOut[2]:=c3*1000000;
-    ValueDataOut[3]:=l1*1000000;
-    ValueDataOut[4]:=l2*1000000;
-    ValueDataOut[5]:=l3*1000000;
+    D1Uz:=ValueActiveElements[0];
+    D1Izmin:=ValueActiveElements[1];
+    D1Izmax:=ValueActiveElements[2];
+    Uinmin:=ValueDataIn[0];
+    Uinmax:=ValueDataIn[1];
+    Ioutmin:=ValueDataIn[2];
+    Ioutmax:=ValueDataIn[3];
+    Rbmin:=(Uinmax-D1Uz)/(D1Izmax+Ioutmin);
+    Rbmax:=(Uinmin-D1Uz)/(D1Izmin+Ioutmax);
+    ValueDataOut[0]:=Rbmin;
+    ValueDataOut[1]:=Rbmax;
   except
     ValueDataOut[0]:=0;
     ValueDataOut[1]:=0;
-    ValueDataOut[2]:=0;
-    ValueDataOut[3]:=0;
-    ValueDataOut[4]:=0;
-    ValueDataOut[5]:=0;
-    ErrorCode:=1;
-    Result:=ErrorCode;
+	ErrorCode:=1;
+	Result:=ErrorCode;
     exit;
   end;
   ErrorCode:=0;
@@ -103,14 +103,20 @@ end;
 initialization
   ErrorCode:=0;
   HowToSetLinkActive:=false;
+  // Module name
   NameModule:=MESSAGE01;
-  NameDataIn[0]:=MESSAGE02;
-  NameDataIn[1]:=MESSAGE03;
-  NameDataOut[0]:=MESSAGE04;
-  NameDataOut[1]:=MESSAGE06;
-  NameDataOut[2]:=MESSAGE07;
-  NameDataOut[3]:=MESSAGE08;
-  NameDataOut[4]:=MESSAGE09;
-  NameDataOut[5]:=MESSAGE10;
+  // Active elements
+  NameActiveElements[0]:=MESSAGE02;
+  NameActiveElements[1]:=MESSAGE03;
+  NameActiveElements[2]:=MESSAGE04;
+  // Input data
+  NameDataIn[0]:=MESSAGE05;
+  NameDataIn[1]:=MESSAGE06;
+  NameDataIn[2]:=MESSAGE07;
+  NameDataIn[3]:=MESSAGE08;
+  // Output data
+  NameDataOut[0]:=MESSAGE09;
+  NameDataOut[1]:=MESSAGE10;
+  // Error messages;
   ErrorMessages[0]:=MESSAGE11;
 end.

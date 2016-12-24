@@ -1,8 +1,6 @@
 { +--------------------------------------------------------------------------+ }
 { | Power Supplies v0.4.1 * Power supply calculator                          | }
 { | Copyright (C) 2011-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
-{ | LC-circuits v0.4.1 * LC-circuits                                         | }
-{ | Copyright (C) 2011-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | module_09.pas                                                            | }
 { | Module (static, fp unit - v0.3+)                                         | }
 { +--------------------------------------------------------------------------+ }
@@ -32,16 +30,29 @@ var
   ErrorMessages: array[0..15] of string;                       // Error messages
   HowToSetLinkActive: boolean;            //Enable/disable "How to set it?" link
 const
-  MODULE_ID='lc09';                                                 // Module ID
+  MODULE_ID='ps09';
 
 Resourcestring
-  MESSAGE01='Asymmetric low pass L-section filter';
-  MESSAGE02='f|kHz|cutoff frequency';
-  MESSAGE03='Z|Ω|impedance';
-  MESSAGE04='C|nF|capacitor';
-  MESSAGE05='L|µH|inductor';
-  MESSAGE06='Calculation error, please check values!';
-
+  // Module name
+  MESSAGE01='Voltage regulator with gas filled voltage stabiliser tube';
+  // Active elements
+  MESSAGE02='V1|Ui|V|ignition voltage';
+  MESSAGE03='V1|Uamin|V|minimal anode voltage';
+  MESSAGE04='V1|Uamax|V|maximal anode voltage';
+  MESSAGE05='V1|Iamin|mA|minimal anode current';
+  MESSAGE06='V1|Iamax|mA|maximal anode current';
+  // Input data
+  MESSAGE07='Uinmin|V|minimal input voltage';
+  MESSAGE08='Uinmax|V|maximal input voltage';
+  MESSAGE09='Uout|V|output voltage';
+  MESSAGE10='Iout|mA|output current';
+  // Output data
+  MESSAGE11='Rbmin|kΩ|minimal ballast resistor';
+  MESSAGE12='Rbmax|kΩ|maximal ballast resistor';
+  // Messages
+  MESSAGE13='Calculation error, please check values!';
+  MESSAGE14='Increase the input voltage!';
+  
 function GetName: string;
 function GetID: string;
 procedure SetActiveElements(num: byte; value: real);
@@ -55,26 +66,44 @@ function GetErrorCode: byte;
 function GetHowToSetLinkActive: boolean;
 function Calculate: byte;
 
-implementation
+Implementation
 
 // Calculation
-function Calculate: byte;var
-  z, f, c, l: real;
+function Calculate: byte;
+var
+  // Active elements:
+  V1Ui, V1Uamin, V1Uamax, V1Iamin, V1Iamax: real;
+  // Input data:
+  Uinmin, Uinmax, Uout, Iout: real;
+  //Output data:
+  Rbmin, Rbmax, Rbmaxx: real;
 begin
   try
-    z:=ValueDataIn[1];
-    f:=ValueDataIn[0]*1000;
-
-    c:=1/(2*pi*f*z);
-    l:=z/(2*pi*f);
-
-    ValueDataOut[0]:=c*1000000000;
-    ValueDataOut[1]:=l*1000000;
+    V1Ui:=ValueActiveElements[0];
+    V1Uamin:=ValueActiveElements[1];
+    V1Uamax:=ValueActiveElements[2];
+    V1Iamin:=ValueActiveElements[3];
+    V1Iamax:=ValueActiveElements[4];
+    Uinmin:=ValueDataIn[0];
+    Uinmax:=ValueDataIn[1];
+    Uout:=ValueDataIn[2];
+    Iout:=ValueDataIn[3];
+    Rbmin:=(Uinmax-V1Uamin)/(V1Iamax+Iout);
+    Rbmax:=(Uinmin-V1Uamax)/(V1Iamin+Iout);
+    Rbmaxx:=((Uinmin-V1Ui)/V1Ui)*(Uout/Iout);
+    if Rbmaxx<Rbmin then
+    begin
+      ErrorCode:=2;
+      Result:=ErrorCode;
+      exit;
+    end;
+    ValueDataOut[0]:=Rbmin;
+    ValueDataOut[1]:=Rbmax;
   except
     ValueDataOut[0]:=0;
     ValueDataOut[1]:=0;
-    ErrorCode:=1;
-    Result:=ErrorCode;
+	ErrorCode:=1;
+	Result:=ErrorCode;
     exit;
   end;
   ErrorCode:=0;
@@ -86,10 +115,23 @@ end;
 initialization
   ErrorCode:=0;
   HowToSetLinkActive:=false;
+  // Module name
   NameModule:=MESSAGE01;
-  NameDataIn[0]:=MESSAGE02;
-  NameDataIn[1]:=MESSAGE03;
-  NameDataOut[0]:=MESSAGE04;
-  NameDataOut[1]:=MESSAGE05;
-  ErrorMessages[0]:=MESSAGE06;
+  // Active elements
+  NameActiveElements[0]:=MESSAGE02;
+  NameActiveElements[1]:=MESSAGE03;
+  NameActiveElements[2]:=MESSAGE04;
+  NameActiveElements[3]:=MESSAGE05;
+  NameActiveElements[4]:=MESSAGE06;
+  // Input data
+  NameDataIn[0]:=MESSAGE07;
+  NameDataIn[1]:=MESSAGE08;
+  NameDataIn[2]:=MESSAGE09;
+  NameDataIn[3]:=MESSAGE10;
+  // Output data
+  NameDataOut[0]:=MESSAGE11;
+  NameDataOut[1]:=MESSAGE12;
+  // Error messages;
+  ErrorMessages[0]:=MESSAGE13;
+  ErrorMessages[1]:=MESSAGE14;
 end.

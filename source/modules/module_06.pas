@@ -1,8 +1,6 @@
 { +--------------------------------------------------------------------------+ }
 { | Power Supplies v0.4.1 * Power supply calculator                          | }
 { | Copyright (C) 2011-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
-{ | LC-circuits v0.4.1 * LC-circuits                                         | }
-{ | Copyright (C) 2011-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | module_06.pas                                                            | }
 { | Module (static, fp unit - v0.3+)                                         | }
 { +--------------------------------------------------------------------------+ }
@@ -32,16 +30,28 @@ var
   ErrorMessages: array[0..15] of string;                       // Error messages
   HowToSetLinkActive: boolean;            //Enable/disable "How to set it?" link
 const
-  MODULE_ID='lc06';                                                 // Module ID
+  MODULE_ID='ps06';
 
 Resourcestring
-  MESSAGE01='Two way crossover filter #4';
-  MESSAGE02='f|kHz|crossover frequency';
-  MESSAGE03='Z|Ω|impedance';
-  MESSAGE04='C|µF|capacitor';
-  MESSAGE05='L|µH|inductor';
-  MESSAGE06='Calculation error, please check values!';
-
+  // Module name
+  MESSAGE01='Buffered Graetz-bridge rectifier';
+  // Active elements
+  // Input data
+  MESSAGE02='Uout|V|output voltage';
+  MESSAGE03='Iout|A|output current';
+  MESSAGE04='fin|Hz|freq. of input voltage';
+  // Output data
+  MESSAGE05='Us|V|secunder voltage';
+  MESSAGE06='Is|A|secunder current';
+  MESSAGE07='Ur|V|diode reverse voltage';
+  MESSAGE08='If|A|diode forward current';
+  MESSAGE09='Uh|V|humming voltage';
+  MESSAGE10='fh|Hz|humming frequency';
+  MESSAGE11='C|uF|buffer capacitor';
+  MESSAGE12='Uc|V|voltage of buffer capacitor';
+  // Messages
+  MESSAGE13='Calculation error, please check values!';
+  
 function GetName: string;
 function GetID: string;
 procedure SetActiveElements(num: byte; value: real);
@@ -55,24 +65,46 @@ function GetErrorCode: byte;
 function GetHowToSetLinkActive: boolean;
 function Calculate: byte;
 
-implementation
+Implementation
 
 // Calculation
-function Calculate: byte;var
-  z, f, c, l: real;
+function Calculate: byte;
+var
+  // Active elements:
+  // Input data:
+  Uout, Iout, fin: real;
+  //Output data:
+  Us, Iss, Ur, Iff, Uh, fh, C, Uc: real;
 begin
-  try
-    z:=ValueDataIn[1];
-    f:=ValueDataIn[0]*1000;
-
-    c:=(1/(2*pi*f*z))/sqrt(2);
-    l:=(z/(2*pi*f))/sqrt(2);
-
-    ValueDataOut[0]:=c*1000000;
-    ValueDataOut[1]:=l*1000000;
+ try
+    Uout:=ValueDataIn[0];
+    Iout:=ValueDataIn[1];
+    fin:=ValueDataIn[2];
+    fh:=2*fin;
+    Uh:=0.05*Uout;
+    Us:=0.8*Uout*1.15;
+    Ur:=2*Us*sqrt(2);
+    Iff:=0.5*Iout;
+    Iss:=1.57*Iout;
+	C:=1000000*((0.2*Iout)/(Uh*fh));
+	Uc:=Us*sqrt(2);
+    ValueDataOut[0]:=Us;
+    ValueDataOut[1]:=Iss;
+    ValueDataOut[2]:=Ur;
+    ValueDataOut[3]:=Iff;
+    ValueDataOut[4]:=Uh;
+    ValueDataOut[5]:=fh;
+    ValueDataOut[6]:=C;
+    ValueDataOut[7]:=Uc;
   except
     ValueDataOut[0]:=0;
     ValueDataOut[1]:=0;
+    ValueDataOut[2]:=0;
+    ValueDataOut[3]:=0;
+    ValueDataOut[4]:=0;
+    ValueDataOut[5]:=0;
+    ValueDataOut[6]:=0;
+    ValueDataOut[7]:=0;
     ErrorCode:=1;
     Result:=ErrorCode;
     exit;
@@ -86,10 +118,22 @@ end;
 initialization
   ErrorCode:=0;
   HowToSetLinkActive:=false;
+  // Module name
   NameModule:=MESSAGE01;
+  // Active elements
+  // Input data
   NameDataIn[0]:=MESSAGE02;
   NameDataIn[1]:=MESSAGE03;
-  NameDataOut[0]:=MESSAGE04;
-  NameDataOut[1]:=MESSAGE05;
-  ErrorMessages[0]:=MESSAGE06;
+  NameDataIn[2]:=MESSAGE04;
+  // Output data
+  NameDataOut[0]:=MESSAGE05;
+  NameDataOut[1]:=MESSAGE06;
+  NameDataOut[2]:=MESSAGE07;
+  NameDataOut[3]:=MESSAGE08;
+  NameDataOut[4]:=MESSAGE09;
+  NameDataOut[5]:=MESSAGE10;
+  NameDataOut[6]:=MESSAGE11;
+  NameDataOut[7]:=MESSAGE12;
+  // Error messages;
+  ErrorMessages[0]:=MESSAGE13;
 end.

@@ -1,8 +1,6 @@
 { +--------------------------------------------------------------------------+ }
 { | Power Supplies v0.4.1 * Power supply calculator                          | }
 { | Copyright (C) 2011-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
-{ | LC-circuits v0.4.1 * LC-circuits                                         | }
-{ | Copyright (C) 2011-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | module_11.pas                                                            | }
 { | Module (static, fp unit - v0.3+)                                         | }
 { +--------------------------------------------------------------------------+ }
@@ -32,16 +30,21 @@ var
   ErrorMessages: array[0..15] of string;                       // Error messages
   HowToSetLinkActive: boolean;            //Enable/disable "How to set it?" link
 const
-  MODULE_ID='lc11';                                                 // Module ID
+  MODULE_ID='ps11';
 
 Resourcestring
-  MESSAGE01='Asymmetric low pass T-section filter';
-  MESSAGE02='f|kHz|cutoff frequency';
-  MESSAGE03='Z|Ω|impedance';
-  MESSAGE04='C|nF|capacitor';
-  MESSAGE05='L|µH|inductor';
-  MESSAGE06='Calculation error, please check values!';
-
+  // Module name
+  MESSAGE01='Current regulator with LM117/LM317/LM237/LM337 integrated circuit';
+  // Active elements
+  // Input data
+  MESSAGE02='Iout|mA|maximal output current';
+  // Output data
+  MESSAGE03='R|Ω|resistor';
+  // Messages
+  MESSAGE04='Calculation error, please check values!';
+  MESSAGE05='R must not be less than 0.8 Ω!';
+  MESSAGE06='R must not be more than 120 Ω!';
+  
 function GetName: string;
 function GetID: string;
 procedure SetActiveElements(num: byte; value: real);
@@ -55,26 +58,37 @@ function GetErrorCode: byte;
 function GetHowToSetLinkActive: boolean;
 function Calculate: byte;
 
-implementation
+Implementation
 
 // Calculation
-function Calculate: byte;var
-  z, f, c, l: real;
+function Calculate: byte;
+var
+  // Active elements:
+  // Input data:
+  Iout: real;
+  //Output data:
+  R: real;
 begin
   try
-    z:=ValueDataIn[1];
-    f:=ValueDataIn[0]*1000;
-
-    c:=2/(2*pi*f*z);
-    l:=z/(2*pi*f);
-
-    ValueDataOut[0]:=c*1000000000;
-    ValueDataOut[1]:=l*1000000;
+    Iout:=ValueDataIn[0];
+    R:=1.25/(Iout/1000);
+	if R<0.8 then
+    begin
+      ErrorCode:=2;
+      Result:=ErrorCode;
+      exit;
+    end; 
+	if R>120 then
+    begin
+      ErrorCode:=2;
+      Result:=ErrorCode;
+      exit;
+    end; 
+    ValueDataOut[0]:=R;
   except
     ValueDataOut[0]:=0;
-    ValueDataOut[1]:=0;
-    ErrorCode:=1;
-    Result:=ErrorCode;
+	ErrorCode:=1;
+	Result:=ErrorCode;
     exit;
   end;
   ErrorCode:=0;
@@ -86,10 +100,15 @@ end;
 initialization
   ErrorCode:=0;
   HowToSetLinkActive:=false;
+  // Module name
   NameModule:=MESSAGE01;
+  // Active elements
+  // Input data
   NameDataIn[0]:=MESSAGE02;
-  NameDataIn[1]:=MESSAGE03;
-  NameDataOut[0]:=MESSAGE04;
-  NameDataOut[1]:=MESSAGE05;
-  ErrorMessages[0]:=MESSAGE06;
+  // Output data
+  NameDataOut[0]:=MESSAGE03;
+  // Error messages;
+  ErrorMessages[0]:=MESSAGE04;
+  ErrorMessages[1]:=MESSAGE05;
+  ErrorMessages[2]:=MESSAGE06;
 end.

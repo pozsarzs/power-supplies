@@ -1,8 +1,6 @@
 { +--------------------------------------------------------------------------+ }
 { | Power Supplies v0.4.1 * Power supply calculator                          | }
 { | Copyright (C) 2011-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
-{ | LC-circuits v0.4.1 * LC-circuits                                         | }
-{ | Copyright (C) 2011-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | module_07.pas                                                            | }
 { | Module (static, fp unit - v0.3+)                                         | }
 { +--------------------------------------------------------------------------+ }
@@ -32,21 +30,21 @@ var
   ErrorMessages: array[0..15] of string;                       // Error messages
   HowToSetLinkActive: boolean;            //Enable/disable "How to set it?" link
 const
-  MODULE_ID='lc07';                                                 // Module ID
+  MODULE_ID='ps07';
 
 Resourcestring
-  MESSAGE01='Two way crossover filter #5';
-  MESSAGE02='f|kHz|crossover frequency';
-  MESSAGE03='Z|Ω|impedance';
-  MESSAGE04='C1|µF|capacitor';
-  MESSAGE05='C1|µF|capacitor';
-  MESSAGE06='C2|µF|capacitor';
-  MESSAGE07='C3|µF|capacitor';
-  MESSAGE08='L1|µH|inductor';
-  MESSAGE09='L2|µH|inductor';
-  MESSAGE10='L3|µH|inductor';
-  MESSAGE11='Calculation error, please check values!';
-
+  // Module name
+  MESSAGE01='Capacitive divider for serial heater circuit (AC 50Hz)';
+  // Active elements
+  // Input data
+  MESSAGE02='Uin|V|input AC voltage';
+  MESSAGE03='Uh|V|full heater voltage';
+  MESSAGE04='Ih|A|heater current';
+  // Output data
+  MESSAGE05='C|uF|serial capacitor';
+  // Messages
+  MESSAGE06='Calculation error, please check values!';
+  
 function GetName: string;
 function GetID: string;
 procedure SetActiveElements(num: byte; value: real);
@@ -60,36 +58,25 @@ function GetErrorCode: byte;
 function GetHowToSetLinkActive: boolean;
 function Calculate: byte;
 
-implementation
+Implementation
 
 // Calculation
-function Calculate: byte;var
-  z, f, c1, c2, c3, l1, l2, l3: real;
+function Calculate: byte;
+var
+  // Active elements:
+  // Input data:
+  Uin, Uh, Ih: real;
+  //Output data:
+  C: real;
 begin
-  try
-    z:=ValueDataIn[1];
-    f:=ValueDataIn[0]*1000;
-
-    c1:=2/(2*pi*f*z);
-    c2:=(1/1.6)*(1/(2*pi*f*z));
-    c3:=1/(2*pi*f*z);
-    l1:=(1.6*z)/(2*pi*f);
-    l2:=z/(2*pi*f);
-    l3:=z/(4*pi*f);
-
-    ValueDataOut[0]:=c1*1000000;
-    ValueDataOut[1]:=c2*1000000;
-    ValueDataOut[2]:=c3*1000000;
-    ValueDataOut[3]:=l1*1000000;
-    ValueDataOut[4]:=l2*1000000;
-    ValueDataOut[5]:=l3*1000000;
+ try
+    Uin:=ValueDataIn[0];
+    Uh:=ValueDataIn[1];
+    Ih:=ValueDataIn[2];
+    C:=(3180*Ih)/sqrt((Uin*Uin)-(Uh*Uh));
+    ValueDataOut[0]:=C;
   except
     ValueDataOut[0]:=0;
-    ValueDataOut[1]:=0;
-    ValueDataOut[2]:=0;
-    ValueDataOut[3]:=0;
-    ValueDataOut[4]:=0;
-    ValueDataOut[5]:=0;
     ErrorCode:=1;
     Result:=ErrorCode;
     exit;
@@ -103,14 +90,15 @@ end;
 initialization
   ErrorCode:=0;
   HowToSetLinkActive:=false;
+  // Module name
   NameModule:=MESSAGE01;
+  // Active elements
+  // Input data
   NameDataIn[0]:=MESSAGE02;
   NameDataIn[1]:=MESSAGE03;
-  NameDataOut[0]:=MESSAGE04;
-  NameDataOut[1]:=MESSAGE06;
-  NameDataOut[2]:=MESSAGE07;
-  NameDataOut[3]:=MESSAGE08;
-  NameDataOut[4]:=MESSAGE09;
-  NameDataOut[5]:=MESSAGE10;
-  ErrorMessages[0]:=MESSAGE11;
+  NameDataIn[2]:=MESSAGE04;
+  // Output data
+  NameDataOut[0]:=MESSAGE05;
+  // Error messages;
+  ErrorMessages[0]:=MESSAGE06;
 end.

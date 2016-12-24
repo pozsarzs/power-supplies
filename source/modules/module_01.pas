@@ -1,8 +1,6 @@
 { +--------------------------------------------------------------------------+ }
 { | Power Supplies v0.4.1 * Power supply calculator                          | }
 { | Copyright (C) 2011-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
-{ | LC-circuits v0.4.1 * LC-circuits                                         | }
-{ | Copyright (C) 2011-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | module_01.pas                                                            | }
 { | Module (static, fp unit - v0.3+)                                         | }
 { +--------------------------------------------------------------------------+ }
@@ -32,22 +30,26 @@ var
   ErrorMessages: array[0..15] of string;                       // Error messages
   HowToSetLinkActive: boolean;            //Enable/disable "How to set it?" link
 const
-  MODULE_ID='lc01';                                                 // Module ID
+  MODULE_ID='ps01';
 
 Resourcestring
   // Module name
-  MESSAGE01='Collins-filter';
+  MESSAGE01='Half wave rectifier';
+  // Active elements
   // Input data
-  MESSAGE02='Z1|kΩ|input impedance';
-  MESSAGE03='Z2|kΩ|output impedance';
-  MESSAGE04='f|MHz|frequency';
-  MESSAGE05='Q| |quality factor';
+  MESSAGE02='Uout|V|output voltage';
+  MESSAGE03='Iout|A|output current';
+  MESSAGE04='fin|Hz|freq. of input voltage';
   // Output data
-  MESSAGE06='C1|pF|capacitor';
-  MESSAGE07='C2|pF|capacitor';
-  MESSAGE08='L|µH|inductor';
-  MESSAGE09='Calculation error, please check values!';
-
+  MESSAGE05='Us|V|secunder voltage';
+  MESSAGE06='Is|A|secunder current';
+  MESSAGE07='Ur|V|diode reverse voltage';
+  MESSAGE08='If|A|diode forward current';
+  MESSAGE09='Uh|V|humming voltage';
+  MESSAGE10='fh|Hz|humming frequency';
+  // Messages
+  MESSAGE11='Calculation error, please check values!';
+  
 function GetName: string;
 function GetID: string;
 procedure SetActiveElements(num: byte; value: real);
@@ -61,43 +63,40 @@ function GetErrorCode: byte;
 function GetHowToSetLinkActive: boolean;
 function Calculate: byte;
 
-implementation
+Implementation
 
 // Calculation
 function Calculate: byte;
 var
+  // Active elements:
   // Input data:
-  z1, z2, f, q,
-  // Output data:
-  c1, c2, l: real;
+  Uout, Iout, fin: real;
+  //Output data:
+  Us, Iss, Ur, Iff, Uh, fh: real;
 begin
-  try
-    // Input data:
-    z1:=ValueDataIn[0];
-    z2:=ValueDataIn[1];
-    if not (z1>=z2) then
-    begin
-      ErrorCode:=1;
-      Result:=ErrorCode;
-      exit;
-    end;
-    f:=ValueDataIn[2];
-    q:=ValueDataIn[3];
-    
-    if q=0 then q:=12;
-    c1:=2000/(z1*f);
-    c2:=c1/sqrt(z1/z2);
-    if (z1>=10*z2) and (q>=10)
-      then l:=((13*z1)/f)+((z1*c1*sqrt(z1*z2))/145)
-      else l:=((q*z1)+(2*pi*f*c2*z1*z2))/(2*pi*f*((q*q)+1));
-    // Output data:
-    ValueDataOut[0]:=c1;
-    ValueDataOut[1]:=c2;
-    ValueDataOut[2]:=l;
+ try
+    Uout:=ValueDataIn[0];
+    Iout:=ValueDataIn[1];
+    fin:=ValueDataIn[2];
+    fh:=fin;
+    Uh:=1.21*Uout;
+    Us:=2.22*Uout*1.15;
+    Ur:=Us*sqrt(2);
+    Iff:=Iout;
+    Iss:=1.57*Iout;
+    ValueDataOut[0]:=Us;
+    ValueDataOut[1]:=Iss;
+    ValueDataOut[2]:=Ur;
+    ValueDataOut[3]:=Iff;
+    ValueDataOut[4]:=Uh;
+    ValueDataOut[5]:=fh;
   except
     ValueDataOut[0]:=0;
     ValueDataOut[1]:=0;
     ValueDataOut[2]:=0;
+    ValueDataOut[3]:=0;
+    ValueDataOut[4]:=0;
+    ValueDataOut[5]:=0;
     ErrorCode:=1;
     Result:=ErrorCode;
     exit;
@@ -111,17 +110,20 @@ end;
 initialization
   ErrorCode:=0;
   HowToSetLinkActive:=false;
-  // Module name:
+  // Module name
   NameModule:=MESSAGE01;
-  // Input data:
+  // Active elements
+  // Input data
   NameDataIn[0]:=MESSAGE02;
   NameDataIn[1]:=MESSAGE03;
   NameDataIn[2]:=MESSAGE04;
-  NameDataIn[3]:=MESSAGE05;
-  // Output data:
-  NameDataOut[0]:=MESSAGE06;
-  NameDataOut[1]:=MESSAGE07;
-  NameDataOut[2]:=MESSAGE08;
-  // Error messages:
-  ErrorMessages[0]:=MESSAGE09;
+  // Output data
+  NameDataOut[0]:=MESSAGE05;
+  NameDataOut[1]:=MESSAGE06;
+  NameDataOut[2]:=MESSAGE07;
+  NameDataOut[3]:=MESSAGE08;
+  NameDataOut[4]:=MESSAGE09;
+  NameDataOut[5]:=MESSAGE10;
+  // Error messages;
+  ErrorMessages[0]:=MESSAGE11;
 end.
