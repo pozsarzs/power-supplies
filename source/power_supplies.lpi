@@ -8,7 +8,7 @@
         <SaveOnlyProjectUnits Value="True"/>
       </Flags>
       <MainUnit Value="0"/>
-      <Title Value="LC-circuits"/>
+      <Title Value="Power supplies"/>
       <UseAppBundle Value="False"/>
       <UseXPManifest Value="True"/>
       <Icon Value="0"/>
@@ -23,7 +23,7 @@
       <MinorVersionNr Value="4"/>
       <RevisionNr Value="1"/>
       <CharSet Value="04B0"/>
-      <StringTable Comments="LC-circuit calculator" FileDescription="LC-circuit calculator" LegalCopyright="(C) 2011-2016 Pozsar Zsolt" ProductName="LC-circuits" ProductVersion="0.4.1"/>
+      <StringTable Comments="Power supply calculator" FileDescription="Power supply calculator" LegalCopyright="(C) 2011-2016 Pozsar Zsolt" ProductName="Power supplies" ProductVersion="0.4.1"/>
     </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="default" Default="True"/>
@@ -56,9 +56,9 @@
         <PackageName Value="LCL"/>
       </Item4>
     </RequiredPackages>
-    <Units Count="33">
+    <Units Count="18">
       <Unit0>
-        <Filename Value="lc-circuits.lpr"/>
+        <Filename Value="power_supplies.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
@@ -218,17 +218,6 @@
         <Loaded Value="True"/>
       </Unit12>
       <Unit13>
-        <Filename Value="modules\module_14.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="module_14"/>
-        <EditorIndex Value="20"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="7"/>
-        <UsageCount Value="61"/>
-        <Loaded Value="True"/>
-      </Unit13>
-      <Unit14>
         <Filename Value="modules\module_07.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="module_07"/>
@@ -238,8 +227,8 @@
         <CursorPos X="1" Y="7"/>
         <UsageCount Value="61"/>
         <Loaded Value="True"/>
-      </Unit14>
-      <Unit15>
+      </Unit13>
+      <Unit14>
         <Filename Value="modules\module_08.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="module_08"/>
@@ -249,8 +238,8 @@
         <CursorPos X="1" Y="7"/>
         <UsageCount Value="61"/>
         <Loaded Value="True"/>
-      </Unit15>
-      <Unit16>
+      </Unit14>
+      <Unit15>
         <Filename Value="modules\module_09.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="module_09"/>
@@ -260,8 +249,8 @@
         <CursorPos X="38" Y="19"/>
         <UsageCount Value="61"/>
         <Loaded Value="True"/>
-      </Unit16>
-      <Unit17>
+      </Unit15>
+      <Unit16>
         <Filename Value="modules\module_10.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="module_10"/>
@@ -271,19 +260,8 @@
         <CursorPos X="1" Y="7"/>
         <UsageCount Value="61"/>
         <Loaded Value="True"/>
-      </Unit17>
-      <Unit18>
-        <Filename Value="modules\module_15.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="module_15"/>
-        <EditorIndex Value="21"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="7"/>
-        <UsageCount Value="61"/>
-        <Loaded Value="True"/>
-      </Unit18>
-      <Unit19>
+      </Unit16>
+      <Unit17>
         <Filename Value="modules\module_11.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="module_11"/>
@@ -293,150 +271,7 @@
         <CursorPos X="1" Y="1"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
-      </Unit19>
-      <Unit20>
-        <Filename Value="modules\module_12.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="module_12"/>
-        <EditorIndex Value="18"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-      </Unit20>
-      <Unit21>
-        <Filename Value="modules\module_13.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="module_13"/>
-        <EditorIndex Value="19"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-      </Unit21>
-      <Unit22>
-        <Filename Value="modules\module_16.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="module_16"/>
-        <EditorIndex Value="22"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-      </Unit22>
-      <Unit23>
-        <Filename Value="modules\module_17.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="module_17"/>
-        <EditorIndex Value="23"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-      </Unit23>
-      <Unit24>
-        <Filename Value="modules\module_18.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="module_18"/>
-        <EditorIndex Value="24"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-      </Unit24>
-      <Unit25>
-        <Filename Value="modules\module_19.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="module_19"/>
-        <EditorIndex Value="25"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-      </Unit25>
-      <Unit26>
-        <Filename Value="modules\module_20.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="module_20"/>
-        <EditorIndex Value="26"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-      </Unit26>
-      <Unit27>
-        <Filename Value="modules\module_21.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="module_21"/>
-        <EditorIndex Value="27"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-      </Unit27>
-      <Unit28>
-        <Filename Value="modules\module_22.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="module_22"/>
-        <EditorIndex Value="28"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-      </Unit28>
-      <Unit29>
-        <Filename Value="modules\module_23.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="module_23"/>
-        <EditorIndex Value="29"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-      </Unit29>
-      <Unit30>
-        <Filename Value="modules\module_24.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="module_24"/>
-        <EditorIndex Value="30"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-      </Unit30>
-      <Unit31>
-        <Filename Value="modules\module_25.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="module_25"/>
-        <EditorIndex Value="31"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-      </Unit31>
-      <Unit32>
-        <Filename Value="modules\module_26.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="module_26"/>
-        <EditorIndex Value="32"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-      </Unit32>
+      </Unit17>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
