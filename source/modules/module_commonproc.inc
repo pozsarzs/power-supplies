@@ -1,4 +1,6 @@
 { +--------------------------------------------------------------------------+ }
+{ | Power Supplies v0.4.1 * Power supply calculator                          | }
+{ | Copyright (C) 2011-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | LC-circuits v0.4.1 * LC-circuit calculator                               | }
 { | Copyright (C) 2011-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | module_commonproc.pas                                                    | }

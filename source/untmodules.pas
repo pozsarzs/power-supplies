@@ -1,5 +1,5 @@
 { +--------------------------------------------------------------------------+ }
-{ | LC-circuits v0.4.1 * LC-circuit calculator                               | }
+{ | Power Supplies v0.4.1 * Power supply calculator                          | }
 { | Copyright (C) 2011-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | modules.pas                                                              | }
 { | Module collector (for v0.3.1+)                                           | }
@@ -21,10 +21,7 @@ interface
 uses
   module_01, module_02, module_03, module_04, module_05,
   module_06, module_07, module_08, module_09, module_10,
-  module_11, module_12, module_13, module_14, module_15,
-  module_16, module_17, module_18, module_19, module_20,
-  module_21, module_22, module_23, module_24, module_25,
-  module_26;
+  module_11;
 var
   NameDataIn: array[0..63,0..15] of string;
   NameDataOut: array[0..63,0..15] of string;
@@ -136,126 +133,6 @@ begin
     ModuleID[10]:=Module_11.GetID;
     EMessages[10,b]:=Module_11.GetErrorMessage(b);
     HTSLActive[10]:=Module_11.GetHowToSetLinkActive;
-
-    NameActiveElements[11,b]:=Module_12.GetNameActiveElements(b);
-    NameDataIn[11,b]:=Module_12.GetNameDataIn(b);
-    NameDataOut[11,b]:=Module_12.GetNameDataOut(b);
-    NameModule[11]:=Module_12.GetName;
-    ModuleID[11]:=Module_12.GetID;
-    EMessages[11,b]:=Module_12.GetErrorMessage(b);
-    HTSLActive[11]:=Module_12.GetHowToSetLinkActive;
-    
-    NameActiveElements[12,b]:=Module_13.GetNameActiveElements(b);
-    NameDataIn[12,b]:=Module_13.GetNameDataIn(b);
-    NameDataOut[12,b]:=Module_13.GetNameDataOut(b);
-    NameModule[12]:=Module_13.GetName;
-    ModuleID[12]:=Module_13.GetID;
-    EMessages[12,b]:=Module_13.GetErrorMessage(b);
-    HTSLActive[12]:=Module_13.GetHowToSetLinkActive;
-
-    NameActiveElements[13,b]:=Module_14.GetNameActiveElements(b);
-    NameDataIn[13,b]:=Module_14.GetNameDataIn(b);
-    NameDataOut[13,b]:=Module_14.GetNameDataOut(b);
-    NameModule[13]:=Module_14.GetName;
-    ModuleID[13]:=Module_14.GetID;
-    EMessages[13,b]:=Module_14.GetErrorMessage(b);
-    HTSLActive[13]:=Module_14.GetHowToSetLinkActive;
-
-    NameActiveElements[14,b]:=Module_15.GetNameActiveElements(b);
-    NameDataIn[14,b]:=Module_15.GetNameDataIn(b);
-    NameDataOut[14,b]:=Module_15.GetNameDataOut(b);
-    NameModule[14]:=Module_15.GetName;
-    ModuleID[14]:=Module_15.GetID;
-    EMessages[14,b]:=Module_15.GetErrorMessage(b);
-    HTSLActive[14]:=Module_15.GetHowToSetLinkActive;
-
-    NameActiveElements[15,b]:=Module_16.GetNameActiveElements(b);
-    NameDataIn[15,b]:=Module_16.GetNameDataIn(b);
-    NameDataOut[15,b]:=Module_16.GetNameDataOut(b);
-    NameModule[15]:=Module_16.GetName;
-    ModuleID[15]:=Module_16.GetID;
-    EMessages[15,b]:=Module_16.GetErrorMessage(b);
-    HTSLActive[15]:=Module_16.GetHowToSetLinkActive;
-
-    NameActiveElements[16,b]:=Module_17.GetNameActiveElements(b);
-    NameDataIn[16,b]:=Module_17.GetNameDataIn(b);
-    NameDataOut[16,b]:=Module_17.GetNameDataOut(b);
-    NameModule[16]:=Module_17.GetName;
-    ModuleID[16]:=Module_17.GetID;
-    EMessages[16,b]:=Module_17.GetErrorMessage(b);
-    HTSLActive[16]:=Module_17.GetHowToSetLinkActive;
-
-    NameActiveElements[17,b]:=Module_18.GetNameActiveElements(b);
-    NameDataIn[17,b]:=Module_18.GetNameDataIn(b);
-    NameDataOut[17,b]:=Module_18.GetNameDataOut(b);
-    NameModule[17]:=Module_18.GetName;
-    ModuleID[17]:=Module_18.GetID;
-    EMessages[17,b]:=Module_18.GetErrorMessage(b);
-    HTSLActive[17]:=Module_18.GetHowToSetLinkActive;
-
-    NameActiveElements[18,b]:=Module_19.GetNameActiveElements(b);
-    NameDataIn[18,b]:=Module_19.GetNameDataIn(b);
-    NameDataOut[18,b]:=Module_19.GetNameDataOut(b);
-    NameModule[18]:=Module_19.GetName;
-    ModuleID[18]:=Module_19.GetID;
-    EMessages[18,b]:=Module_19.GetErrorMessage(b);
-    HTSLActive[18]:=Module_19.GetHowToSetLinkActive;
-
-    NameActiveElements[19,b]:=Module_20.GetNameActiveElements(b);
-    NameDataIn[19,b]:=Module_20.GetNameDataIn(b);
-    NameDataOut[19,b]:=Module_20.GetNameDataOut(b);
-    NameModule[19]:=Module_20.GetName;
-    ModuleID[19]:=Module_20.GetID;
-    EMessages[19,b]:=Module_20.GetErrorMessage(b);
-    HTSLActive[19]:=Module_20.GetHowToSetLinkActive;
-
-    NameActiveElements[20,b]:=Module_21.GetNameActiveElements(b);
-    NameDataIn[20,b]:=Module_21.GetNameDataIn(b);
-    NameDataOut[20,b]:=Module_21.GetNameDataOut(b);
-    NameModule[20]:=Module_21.GetName;
-    ModuleID[20]:=Module_21.GetID;
-    EMessages[20,b]:=Module_21.GetErrorMessage(b);
-    HTSLActive[20]:=Module_21.GetHowToSetLinkActive;
-
-    NameActiveElements[21,b]:=Module_22.GetNameActiveElements(b);
-    NameDataIn[21,b]:=Module_22.GetNameDataIn(b);
-    NameDataOut[21,b]:=Module_22.GetNameDataOut(b);
-    NameModule[21]:=Module_22.GetName;
-    ModuleID[21]:=Module_22.GetID;
-    EMessages[21,b]:=Module_22.GetErrorMessage(b);
-    HTSLActive[21]:=Module_22.GetHowToSetLinkActive;
-    
-    NameActiveElements[22,b]:=Module_23.GetNameActiveElements(b);
-    NameDataIn[22,b]:=Module_23.GetNameDataIn(b);
-    NameDataOut[22,b]:=Module_23.GetNameDataOut(b);
-    NameModule[22]:=Module_23.GetName;
-    ModuleID[22]:=Module_23.GetID;
-    EMessages[22,b]:=Module_23.GetErrorMessage(b);
-    HTSLActive[22]:=Module_23.GetHowToSetLinkActive;
-
-    NameActiveElements[23,b]:=Module_24.GetNameActiveElements(b);
-    NameDataIn[23,b]:=Module_24.GetNameDataIn(b);
-    NameDataOut[23,b]:=Module_24.GetNameDataOut(b);
-    NameModule[23]:=Module_24.GetName;
-    ModuleID[23]:=Module_24.GetID;
-    EMessages[23,b]:=Module_24.GetErrorMessage(b);
-    HTSLActive[23]:=Module_24.GetHowToSetLinkActive;
-
-    NameActiveElements[24,b]:=Module_25.GetNameActiveElements(b);
-    NameDataIn[24,b]:=Module_25.GetNameDataIn(b);
-    NameDataOut[24,b]:=Module_25.GetNameDataOut(b);
-    NameModule[24]:=Module_25.GetName;
-    ModuleID[24]:=Module_25.GetID;
-    EMessages[24,b]:=Module_25.GetErrorMessage(b);
-    HTSLActive[24]:=Module_25.GetHowToSetLinkActive;
-
-    NameActiveElements[25,b]:=Module_26.GetNameActiveElements(b);
-    NameDataIn[25,b]:=Module_26.GetNameDataIn(b);
-    NameDataOut[25,b]:=Module_26.GetNameDataOut(b);
-    NameModule[25]:=Module_26.GetName;
-    ModuleID[25]:=Module_26.GetID;
-    EMessages[25,b]:=Module_26.GetErrorMessage(b);
-    HTSLActive[25]:=Module_26.GetHowToSetLinkActive;
   end;
 end;
 
@@ -273,21 +150,6 @@ begin
      8: Module_09.SetActiveElements(num, value);
      9: Module_10.SetActiveElements(num, value);
     10: Module_11.SetActiveElements(num, value);
-    11: Module_12.SetActiveElements(num, value);
-    12: Module_13.SetActiveElements(num, value);
-    13: Module_14.SetActiveElements(num, value);
-    14: Module_15.SetActiveElements(num, value);
-    15: Module_16.SetActiveElements(num, value);
-    16: Module_17.SetActiveElements(num, value);
-    17: Module_18.SetActiveElements(num, value);
-    18: Module_19.SetActiveElements(num, value);
-    19: Module_20.SetActiveElements(num, value);
-    20: Module_21.SetActiveElements(num, value);
-    21: Module_22.SetActiveElements(num, value);
-    22: Module_23.SetActiveElements(num, value);
-    23: Module_24.SetActiveElements(num, value);
-    24: Module_25.SetActiveElements(num, value);
-    25: Module_26.SetActiveElements(num, value);
   end;
 end;
 
@@ -305,21 +167,6 @@ begin
      8: Module_09.SetDataIn(num, value);
      9: Module_10.SetDataIn(num, value);
     10: Module_11.SetDataIn(num, value);
-    11: Module_12.SetDataIn(num, value);
-    12: Module_13.SetDataIn(num, value);
-    13: Module_14.SetDataIn(num, value);
-    14: Module_15.SetDataIn(num, value);
-    15: Module_16.SetDataIn(num, value);
-    16: Module_17.SetDataIn(num, value);
-    17: Module_18.SetDataIn(num, value);
-    18: Module_19.SetDataIn(num, value);
-    19: Module_20.SetDataIn(num, value);
-    20: Module_21.SetDataIn(num, value);
-    21: Module_22.SetDataIn(num, value);
-    22: Module_23.SetDataIn(num, value);
-    23: Module_24.SetDataIn(num, value);
-    24: Module_25.SetDataIn(num, value);
-    25: Module_26.SetDataIn(num, value);
   end;
 end;
 
@@ -339,21 +186,6 @@ begin
      8: ec:=Module_09.Calculate;
      9: ec:=Module_10.Calculate;
     10: ec:=Module_11.Calculate;
-    11: ec:=Module_12.Calculate;
-    12: ec:=Module_13.Calculate;
-    13: ec:=Module_14.Calculate;
-    14: ec:=Module_15.Calculate;
-    15: ec:=Module_16.Calculate;
-    16: ec:=Module_17.Calculate;
-    17: ec:=Module_18.Calculate;
-    18: ec:=Module_19.Calculate;
-    19: ec:=Module_20.Calculate;
-    20: ec:=Module_21.Calculate;
-    21: ec:=Module_22.Calculate;
-    22: ec:=Module_23.Calculate;
-    23: ec:=Module_24.Calculate;
-    24: ec:=Module_25.Calculate;
-    25: ec:=Module_26.Calculate;
   end;
   if ec>0 then
   begin
@@ -376,21 +208,6 @@ begin
      8: Result:=Module_09.GetDataOut(num);
      9: Result:=Module_10.GetDataOut(num);
     10: Result:=Module_11.GetDataOut(num);
-    11: Result:=Module_12.GetDataOut(num);
-    12: Result:=Module_13.GetDataOut(num);
-    13: Result:=Module_14.GetDataOut(num);
-    14: Result:=Module_15.GetDataOut(num);
-    15: Result:=Module_16.GetDataOut(num);
-    16: Result:=Module_17.GetDataOut(num);
-    17: Result:=Module_18.GetDataOut(num);
-    18: Result:=Module_19.GetDataOut(num);
-    19: Result:=Module_20.GetDataOut(num);
-    20: Result:=Module_21.GetDataOut(num);
-    21: Result:=Module_22.GetDataOut(num);
-    22: Result:=Module_23.GetDataOut(num);
-    23: Result:=Module_24.GetDataOut(num);
-    24: Result:=Module_25.GetDataOut(num);
-    25: Result:=Module_26.GetDataOut(num);
   end;
 end;
 

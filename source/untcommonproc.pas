@@ -1,7 +1,7 @@
 { +--------------------------------------------------------------------------+ }
-{ | LC-circuits v0.4.1 * LC-circuit calculator                               | }
+{ | Power Supplies v0.4.1 * Power supply calculator                          | }
 { | Copyright (C) 2011-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
-{ | commonproc.pp                                                            | }
+{ | commonproc.pas                                                           | }
 { | Common procedures and functions                                          | }
 { +--------------------------------------------------------------------------+ }
 
@@ -37,7 +37,7 @@ var
   savehistory: boolean;                                     // save load history
   appmode: byte;                                               // operation mode
 const
-  APPNAME='lc-circuits';
+  APPNAME='power_supplies';
   EMAIL='pozsarzs@gmail.com';
   HOMEPAGE='http://www.pozsarzs.hu';
   VERSION='0.4.1';

@@ -1,7 +1,7 @@
 { +--------------------------------------------------------------------------+ }
-{ | LC-circuits v0.4.1 * LC-circuit calculator                               | }
+{ | Power Supplies v0.4.1 * Power supply calculator                          | }
 { | Copyright (C) 2011-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
-{ | frmpref.pp                                                               | }
+{ | frmpref.pas                                                              | }
 { | Preferences form                                                         | }
 { +--------------------------------------------------------------------------+ }
 
