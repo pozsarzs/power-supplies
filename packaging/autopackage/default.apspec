@@ -6,44 +6,44 @@
 # +----------------------------------------------------------------------------+
 
 [Meta]
-RootName: @pozsarzs.hu/power_supplies:$SOFTWAREVERSION
+RootName: @pozsarzs.hu/powersupplies:$SOFTWAREVERSION
 DisplayName: Power supply calculator
-ShortName: power_supplies
+ShortName: powersupplies
 Maintainer: Pozsar Zsolt <pozsarzs@gmail.com>
 Packager: Pozsar Zsolt <pozsarzs@gmail.com>
 Summary: Power supply calculator
 URL: http://www.pozsarzs.hu/cheapapps/cheapapps_en.html
 License: EUPL v1.1
 SoftwareVersion: 0.4.1
-Repository: http://www.pozsarzs.hu/cheapapps/power_supplies.xml
+Repository: http://www.pozsarzs.hu/cheapapps/powersupplies.xml
 AutopackageTarget: 1.0
 
 [BuildPrepare]
 # documents
 echo $build_root
-mkdir --parent $build_root/share/power_supplies/documents/hu
-cp $source_dir/documents/* $build_root/share/power_supplies/documents/
-cp $source_dir/documents/hu/* $build_root/share/power_supplies/documents/hu/
+mkdir --parent $build_root/share/powersupplies/documents/hu
+cp $source_dir/documents/* $build_root/share/powersupplies/documents/
+cp $source_dir/documents/hu/* $build_root/share/powersupplies/documents/hu/
 # figures
-mkdir --parent $build_root/share/power_supplies/figures
-cp $source_dir/figures/* $build_root/share/power_supplies/figures/
+mkdir --parent $build_root/share/powersupplies/figures
+cp $source_dir/figures/* $build_root/share/powersupplies/figures/
 # help
-cp $source_dir/help/*.html $build_root/share/power_supplies/help/
-cp $source_dir/help/*.css $build_root/share/power_supplies/help/
+cp $source_dir/help/*.html $build_root/share/powersupplies/help/
+cp $source_dir/help/*.css $build_root/share/powersupplies/help/
 # locales
-mkdir --parent $build_root/share/power_supplies/languages/hu
-cp $source_dir/languages/* $build_root/share/power_supplies/languages/
-cp $source_dir/languages/hu/* $build_root/share/power_supplies/languages/hu/
+mkdir --parent $build_root/share/powersupplies/languages/hu
+cp $source_dir/languages/* $build_root/share/powersupplies/languages/
+cp $source_dir/languages/hu/* $build_root/share/powersupplies/languages/hu/
 # manuals
-mkdir --parent $build_root/share/power_supplies/manual
-cp $source_dir/manual/* $build_root/share/power_supplies/manual/
+mkdir --parent $build_root/share/powersupplies/manual
+cp $source_dir/manual/* $build_root/share/powersupplies/manual/
 # other files
-cp $source_dir/power_supplies $build_root/share/power_supplies/
-cp $source_dir/README $build_root/share/power_supplies/README
+cp $source_dir/powersupplies $build_root/share/powersupplies/
+cp $source_dir/README $build_root/share/powersupplies/README
 mkdir --parent $build_root/share/application/
-cp $source_dir/power_supplies.desktop $build_root/share/application/
+cp $source_dir/powersupplies.desktop $build_root/share/application/
 mkdir --parent $build_root/share/pixmaps/
-cp $source_dir/power_supplies.xpm $build_root/share/pixmaps/
+cp $source_dir/powersupplies.xpm $build_root/share/pixmaps/
 
 [BuildUnprepare]
 unprepareBuild
@@ -56,13 +56,13 @@ echo 'share/' | import
 require @xfree86.org/xlib 6.0
 
 [Install]
-installData share/power_supplies
+installData share/powersupplies
 outputStatus "$intl_INSTALLING_EXE"
-linkFile --silent $PREFIX/share/power_supplies/power_supplies $PREFIX/bin/power_supplies
-linkFile --silent $PREFIX/share/power_supplies/manual/power_supplies_en.1 $PREFIX/share/man/man1/power_supplies.1
-linkFile --silent $PREFIX/share/power_supplies/manual/power_supplies_hu.1 $PREFIX/share/man/hu/man1/power_supplies.1
-installDesktop "Application/Electronics" share/application/power_supplies.desktop
-installIcon share/pixmaps/power_supplies.xpm
+linkFile --silent $PREFIX/share/powersupplies/powersupplies $PREFIX/bin/powersupplies
+linkFile --silent $PREFIX/share/powersupplies/manual/powersupplies_en.1 $PREFIX/share/man/man1/powersupplies.1
+linkFile --silent $PREFIX/share/powersupplies/manual/powersupplies_hu.1 $PREFIX/share/man/hu/man1/powersupplies.1
+installDesktop "Application/Electronics" share/application/powersupplies.desktop
+installIcon share/pixmaps/powersupplies.xpm
 
 [Uninstall]
 # Usually just the following line is enough to uninstall everything

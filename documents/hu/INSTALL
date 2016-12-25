@@ -9,7 +9,7 @@ a. Bináris (txz) csomagból
 b. Forrásnyelvű csomagból
 
    Fordítás és telepítés:
-   # tar -xzf power_supplies-0.4.1.tar.gz
+   # tar -xzf powersupplies-0.4.1.tar.gz
    # ./configure
    # make
    # make install
@@ -26,34 +26,34 @@ a. Bináris (deb, package, rpm, txz) csomagból
 b. Bináris (bin) csomagból
 
    Telepítés:
-   # ./power_supplies-0.4.1-i586.bin
+   # ./powersupplies-0.4.1-i586.bin
 
    Eltávolítás:
-   # /opt/power_supplies/uninstall
+   # /opt/powersupplies/uninstall
 
 c. Bináris (tar.gz) csomagból
 
    Telepítés:
-   # cp power_supplies-0.4.1-i586.tar.gz /opt
+   # cp powersupplies-0.4.1-i586.tar.gz /opt
    # cd /opt
-   # tar -xzf power_supplies-0.4.1-i586.tar.gz
-   # cd power_supplies
+   # tar -xzf powersupplies-0.4.1-i586.tar.gz
+   # cd powersupplies
    # ./create_links
             vagy
-   # tar -xzf power_supplies-0.4.1-i586.tar.gz
-   # cd power_supplies
+   # tar -xzf powersupplies-0.4.1-i586.tar.gz
+   # cd powersupplies
    # ./install
 
    Eltávolítás:
-   # /opt/power_supplies/remove_links
-   # rm -r /opt/power_supplies/
+   # /opt/powersupplies/remove_links
+   # rm -r /opt/powersupplies/
             vagy
-   # /opt/power_supplies/uninstall
+   # /opt/powersupplies/uninstall
 
 d. Forrásnyelvű csomagból
 
    Fordítás és telepítés:
-   $ tar -xzf power_supplies-0.4.1.tar.gz
+   $ tar -xzf powersupplies-0.4.1.tar.gz
    $ ./configure
    $ make
    # make install
@@ -69,16 +69,16 @@ a. Bináris (exe) csomagból
 
 b. Bináris (msi) csomagból
 
-   > msiexec.exe /i power_supplies-0.4.1-win32.msi  (vagy duplakattintással
+   > msiexec.exe /i powersupplies-0.4.1-win32.msi  (vagy duplakattintással
                                                     nyissa meg a csomagot) 
 c. Bináris (zip) csomagból
 
-   > unzip power_supplies-0.4.1-win32.zip           (vagy használjon csomagoló
+   > unzip powersupplies-0.4.1-win32.zip           (vagy használjon csomagoló
                                                     alkalmazást)
 d. Forrásnyelvű csomagból
 
    Fordítás és telepítés:
-   > tar -xzf power_supplies-0.4.1.tar.gz           (vagy használjon csomagoló
+   > tar -xzf powersupplies-0.4.1.tar.gz           (vagy használjon csomagoló
    > build.bat                                      alkalmazást)
    > build.bat install
 
