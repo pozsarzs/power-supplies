@@ -134,251 +134,355 @@ msgid "On-line"
 msgstr ""
 
 #: module_01.message01
-msgid "Collins-filter"
+msgid "Half wave rectifier"
 msgstr ""
 
 #: module_01.message02
-msgid "Z1|kΩ|input impedance"
+msgid "Uout|V|output voltage"
 msgstr ""
 
 #: module_01.message03
-msgid "Z2|kΩ|output impedance"
+msgid "Iout|A|output current"
 msgstr ""
 
 #: module_01.message04
-msgid "f|MHz|frequency"
+msgid "fin|Hz|freq. of input voltage"
 msgstr ""
 
 #: module_01.message05
-msgid "Q| |quality factor"
+msgid "Us|V|secunder voltage"
 msgstr ""
 
 #: module_01.message06
-msgid "C1|pF|capacitor"
+msgid "Is|A|secunder current"
 msgstr ""
 
 #: module_01.message07
-msgid "C2|pF|capacitor"
+msgid "Ur|V|diode reverse voltage"
 msgstr ""
 
 #: module_01.message08
-msgid "L|µH|inductor"
+msgid "If|A|diode forward current"
 msgstr ""
 
 #: module_01.message09
+msgid "Uh|V|humming voltage"
+msgstr ""
+
+#: module_01.message10
+msgid "fh|Hz|humming frequency"
+msgstr ""
+
+#: module_01.message11
 msgid "Calculation error, please check values!"
 msgstr ""
 
 #: module_02.message01
-msgid "Seefried impedance transformer"
+msgid "Full wave rectifier"
 msgstr ""
 
 #: module_02.message02
-msgid "Z1|Ω|input impedance"
+msgid "Uout|V|output voltage"
 msgstr ""
 
 #: module_02.message03
-msgid "Z2|Ω|output impedance"
+msgid "Iout|A|output current"
 msgstr ""
 
 #: module_02.message04
-msgid "f|MHz|frequency"
+msgid "fin|Hz|freq. of input voltage"
 msgstr ""
 
 #: module_02.message05
-msgid "C|pF|capacitor"
+msgid "Us|V|secunder voltage"
 msgstr ""
 
 #: module_02.message06
-msgid "L|µH|inductors"
+msgid "Is|A|secunder current"
 msgstr ""
 
 #: module_02.message07
+msgid "Ur|V|diode reverse voltage"
+msgstr ""
+
+#: module_02.message08
+msgid "If|A|diode forward current"
+msgstr ""
+
+#: module_02.message09
+msgid "Uh|V|humming voltage"
+msgstr ""
+
+#: module_02.message10
+msgid "fh|Hz|humming frequency"
+msgstr ""
+
+#: module_02.message11
 msgid "Calculation error, please check values!"
 msgstr ""
 
 #: module_03.message01
-msgid "Two way crossover filter #1"
+msgid "Graetz-bridge rectifier"
 msgstr ""
 
 #: module_03.message02
-msgid "f|kHz|crossover frequency"
+msgid "Uout|V|output voltage"
 msgstr ""
 
 #: module_03.message03
-msgid "Z|Ω|impedance"
+msgid "Iout|A|output current"
 msgstr ""
 
 #: module_03.message04
-msgid "C|µF|capacitor"
+msgid "fin|Hz|freq. of input voltage"
 msgstr ""
 
 #: module_03.message05
-msgid "L|µH|inductor"
+msgid "Us|V|secunder voltage"
 msgstr ""
 
 #: module_03.message06
+msgid "Is|A|secunder current"
+msgstr ""
+
+#: module_03.message07
+msgid "Ur|V|diode reverse voltage"
+msgstr ""
+
+#: module_03.message08
+msgid "If|A|diode forward current"
+msgstr ""
+
+#: module_03.message09
+msgid "Uh|V|humming voltage"
+msgstr ""
+
+#: module_03.message10
+msgid "fh|Hz|humming frequency"
+msgstr ""
+
+#: module_03.message11
 msgid "Calculation error, please check values!"
 msgstr ""
 
 #: module_04.message01
-msgid "Two way crossover filter #2"
+msgid "Buffered half wave rectifier"
 msgstr ""
 
 #: module_04.message02
-msgid "f|kHz|crossover frequency"
+msgid "Uout|V|output voltage"
 msgstr ""
 
 #: module_04.message03
-msgid "Z|Ω|impedance"
+msgid "Iout|A|output current"
 msgstr ""
 
 #: module_04.message04
-msgid "C|µF|capacitor"
+msgid "fin|Hz|freq. of input voltage"
 msgstr ""
 
 #: module_04.message05
-msgid "L|µH|inductor"
+msgid "Us|V|secunder voltage"
 msgstr ""
 
 #: module_04.message06
+msgid "Is|A|secunder current"
+msgstr ""
+
+#: module_04.message07
+msgid "Ur|V|diode reverse voltage"
+msgstr ""
+
+#: module_04.message08
+msgid "If|A|diode forward current"
+msgstr ""
+
+#: module_04.message09
+msgid "Uh|V|humming voltage"
+msgstr ""
+
+#: module_04.message10
+msgid "fh|Hz|humming frequency"
+msgstr ""
+
+#: module_04.message11
+msgid "C|uF|buffer capacitor"
+msgstr ""
+
+#: module_04.message12
+msgid "Uc|V|voltage of buffer capacitor"
+msgstr ""
+
+#: module_04.message13
 msgid "Calculation error, please check values!"
 msgstr ""
 
 #: module_05.message01
-msgid "Two way crossover filter #3"
+msgid "Buffered full wave rectifier"
 msgstr ""
 
 #: module_05.message02
-msgid "f|kHz|crossover frequency"
+msgid "Uout|V|output voltage"
 msgstr ""
 
 #: module_05.message03
-msgid "Z|Ω|impedance"
+msgid "Iout|A|output current"
 msgstr ""
 
 #: module_05.message04
-msgid "C|µF|capacitor"
+msgid "fin|Hz|freq. of input voltage"
 msgstr ""
 
 #: module_05.message05
-msgid "L1|µH|inductor"
+msgid "Us|V|secunder voltage"
 msgstr ""
 
 #: module_05.message06
-msgid "L2|µH|inductor"
+msgid "Is|A|secunder current"
 msgstr ""
 
 #: module_05.message07
+msgid "Ur|V|diode reverse voltage"
+msgstr ""
+
+#: module_05.message08
+msgid "If|A|diode forward current"
+msgstr ""
+
+#: module_05.message09
+msgid "Uh|V|humming voltage"
+msgstr ""
+
+#: module_05.message10
+msgid "fh|Hz|humming frequency"
+msgstr ""
+
+#: module_05.message11
+msgid "C|uF|buffer capacitor"
+msgstr ""
+
+#: module_05.message12
+msgid "Uc|V|voltage of buffer capacitor"
+msgstr ""
+
+#: module_05.message13
 msgid "Calculation error, please check values!"
 msgstr ""
 
 #: module_06.message01
-msgid "Two way crossover filter #4"
+msgid "Buffered Graetz-bridge rectifier"
 msgstr ""
 
 #: module_06.message02
-msgid "f|kHz|crossover frequency"
+msgid "Uout|V|output voltage"
 msgstr ""
 
 #: module_06.message03
-msgid "Z|Ω|impedance"
+msgid "Iout|A|output current"
 msgstr ""
 
 #: module_06.message04
-msgid "C|µF|capacitor"
+msgid "fin|Hz|freq. of input voltage"
 msgstr ""
 
 #: module_06.message05
-msgid "L|µH|inductor"
+msgid "Us|V|secunder voltage"
 msgstr ""
 
 #: module_06.message06
+msgid "Is|A|secunder current"
+msgstr ""
+
+#: module_06.message07
+msgid "Ur|V|diode reverse voltage"
+msgstr ""
+
+#: module_06.message08
+msgid "If|A|diode forward current"
+msgstr ""
+
+#: module_06.message09
+msgid "Uh|V|humming voltage"
+msgstr ""
+
+#: module_06.message10
+msgid "fh|Hz|humming frequency"
+msgstr ""
+
+#: module_06.message11
+msgid "C|uF|buffer capacitor"
+msgstr ""
+
+#: module_06.message12
+msgid "Uc|V|voltage of buffer capacitor"
+msgstr ""
+
+#: module_06.message13
 msgid "Calculation error, please check values!"
 msgstr ""
 
 #: module_07.message01
-msgid "Two way crossover filter #5"
+msgid "Capacitive divider for serial heater circuit (AC 50Hz)"
 msgstr ""
 
 #: module_07.message02
-msgid "f|kHz|crossover frequency"
+msgid "Uin|V|input AC voltage"
 msgstr ""
 
 #: module_07.message03
-msgid "Z|Ω|impedance"
+msgid "Uh|V|full heater voltage"
 msgstr ""
 
 #: module_07.message04
-msgid "C1|µF|capacitor"
+msgid "Ih|A|heater current"
 msgstr ""
 
 #: module_07.message05
-msgid "C1|µF|capacitor"
+msgid "C|uF|serial capacitor"
 msgstr ""
 
 #: module_07.message06
-msgid "C2|µF|capacitor"
-msgstr ""
-
-#: module_07.message07
-msgid "C3|µF|capacitor"
-msgstr ""
-
-#: module_07.message08
-msgid "L1|µH|inductor"
-msgstr ""
-
-#: module_07.message09
-msgid "L2|µH|inductor"
-msgstr ""
-
-#: module_07.message10
-msgid "L3|µH|inductor"
-msgstr ""
-
-#: module_07.message11
 msgid "Calculation error, please check values!"
 msgstr ""
 
 #: module_08.message01
-msgid "Two way crossover filter #6"
+msgid "Voltage regulator with Zener-diode"
 msgstr ""
 
 #: module_08.message02
-msgid "f|kHz|crossover frequency"
+msgid "D1|Uz|V|Zener voltage"
 msgstr ""
 
 #: module_08.message03
-msgid "Z|Ω|impedance"
+msgid "D1|Izmin|mA|minimal Zener current"
 msgstr ""
 
 #: module_08.message04
-msgid "C1|µF|capacitor"
+msgid "D1|Izmax|mA|maximal Zener current"
 msgstr ""
 
 #: module_08.message05
-msgid "C1|µF|capacitor"
+msgid "Uinmin|V|minimal input voltage"
 msgstr ""
 
 #: module_08.message06
-msgid "C2|µF|capacitor"
+msgid "Uinmax|V|maximal input voltage"
 msgstr ""
 
 #: module_08.message07
-msgid "C3|µF|capacitor"
+msgid "Ioutmin|mA|minimal output current"
 msgstr ""
 
 #: module_08.message08
-msgid "L1|µH|inductor"
+msgid "Ioutmax|mA|maximal output current"
 msgstr ""
 
 #: module_08.message09
-msgid "L2|µH|inductor"
+msgid "Rbmin|kΩ|minimal ballast resistor"
 msgstr ""
 
 #: module_08.message10
-msgid "L3|µH|inductor"
+msgid "Rbmax|kΩ|maximal ballast resistor"
 msgstr ""
 
 #: module_08.message11
@@ -386,531 +490,103 @@ msgid "Calculation error, please check values!"
 msgstr ""
 
 #: module_09.message01
-msgid "Asymmetric low pass L-section filter"
+msgid "Voltage regulator with gas filled voltage stabiliser tube"
 msgstr ""
 
 #: module_09.message02
-msgid "f|kHz|cutoff frequency"
+msgid "V1|Ui|V|ignition voltage"
 msgstr ""
 
 #: module_09.message03
-msgid "Z|Ω|impedance"
+msgid "V1|Uamin|V|minimal anode voltage"
 msgstr ""
 
 #: module_09.message04
-msgid "C|nF|capacitor"
+msgid "V1|Uamax|V|maximal anode voltage"
 msgstr ""
 
 #: module_09.message05
-msgid "L|µH|inductor"
+msgid "V1|Iamin|mA|minimal anode current"
 msgstr ""
 
 #: module_09.message06
+msgid "V1|Iamax|mA|maximal anode current"
+msgstr ""
+
+#: module_09.message07
+msgid "Uinmin|V|minimal input voltage"
+msgstr ""
+
+#: module_09.message08
+msgid "Uinmax|V|maximal input voltage"
+msgstr ""
+
+#: module_09.message09
+msgid "Uout|V|output voltage"
+msgstr ""
+
+#: module_09.message10
+msgid "Iout|mA|output current"
+msgstr ""
+
+#: module_09.message11
+msgid "Rbmin|kΩ|minimal ballast resistor"
+msgstr ""
+
+#: module_09.message12
+msgid "Rbmax|kΩ|maximal ballast resistor"
+msgstr ""
+
+#: module_09.message13
 msgid "Calculation error, please check values!"
 msgstr ""
 
+#: module_09.message14
+msgid "Increase the input voltage!"
+msgstr ""
+
 #: module_10.message01
-msgid "Asymmetric low pass Pi-section filter"
+msgid "Voltage regulator with LM117/LM317/LM237/LM337 integrated circuit"
 msgstr ""
 
 #: module_10.message02
-msgid "f|kHz|cutoff frequency"
+msgid "R1|Ω|resistor, typically 240 Ω"
 msgstr ""
 
 #: module_10.message03
-msgid "Z|Ω|impedance"
+msgid "R2|Ω|resistor"
 msgstr ""
 
 #: module_10.message04
-msgid "C|nF|capacitor"
+msgid "Uout|V|output voltage"
 msgstr ""
 
 #: module_10.message05
-msgid "L|µH|inductor"
-msgstr ""
-
-#: module_10.message06
 msgid "Calculation error, please check values!"
 msgstr ""
 
 #: module_11.message01
-msgid "Asymmetric low pass T-section filter"
+msgid "Current regulator with LM117/LM317/LM237/LM337 integrated circuit"
 msgstr ""
 
 #: module_11.message02
-msgid "f|kHz|cutoff frequency"
+msgid "Iout|mA|maximal output current"
 msgstr ""
 
 #: module_11.message03
-msgid "Z|Ω|impedance"
+msgid "R|Ω|resistor"
 msgstr ""
 
 #: module_11.message04
-msgid "C|nF|capacitor"
+msgid "Calculation error, please check values!"
 msgstr ""
 
 #: module_11.message05
-msgid "L|µH|inductor"
+msgid "R must not be less than 0.8 Ω!"
 msgstr ""
 
 #: module_11.message06
-msgid "Calculation error, please check values!"
-msgstr ""
-
-#: module_12.message01
-msgid "Symmetric low pass T-section filter"
-msgstr ""
-
-#: module_12.message02
-msgid "f|kHz|cutoff frequency"
-msgstr ""
-
-#: module_12.message03
-msgid "Z|Ω|impedance"
-msgstr ""
-
-#: module_12.message04
-msgid "C|nF|capacitor"
-msgstr ""
-
-#: module_12.message05
-msgid "L|µH|inductor"
-msgstr ""
-
-#: module_12.message06
-msgid "Calculation error, please check values!"
-msgstr ""
-
-#: module_13.message01
-msgid "Symmetric low pass Pi-section filter"
-msgstr ""
-
-#: module_13.message02
-msgid "f|kHz|cutoff frequency"
-msgstr ""
-
-#: module_13.message03
-msgid "Z|Ω|impedance"
-msgstr ""
-
-#: module_13.message04
-msgid "C|nF|capacitor"
-msgstr ""
-
-#: module_13.message05
-msgid "L|µH|inductor"
-msgstr ""
-
-#: module_13.message06
-msgid "Calculation error, please check values!"
-msgstr ""
-
-#: module_14.message01
-msgid "Asymmetric high pass L-section filter"
-msgstr ""
-
-#: module_14.message02
-msgid "f|kHz|cutoff frequency"
-msgstr ""
-
-#: module_14.message03
-msgid "Z|Ω|impedance"
-msgstr ""
-
-#: module_14.message04
-msgid "C|nF|capacitor"
-msgstr ""
-
-#: module_14.message05
-msgid "L|µH|inductor"
-msgstr ""
-
-#: module_14.message06
-msgid "Calculation error, please check values!"
-msgstr ""
-
-#: module_15.message01
-msgid "Asymmetric high pass T-section filter"
-msgstr ""
-
-#: module_15.message02
-msgid "f|kHz|cutoff frequency"
-msgstr ""
-
-#: module_15.message03
-msgid "Z|Ω|impedance"
-msgstr ""
-
-#: module_15.message04
-msgid "C|nF|capacitor"
-msgstr ""
-
-#: module_15.message05
-msgid "L|µH|inductor"
-msgstr ""
-
-#: module_15.message06
-msgid "Calculation error, please check values!"
-msgstr ""
-
-#: module_16.message01
-msgid "Asymmetric high pass Pi-section filter"
-msgstr ""
-
-#: module_16.message02
-msgid "f|kHz|cutoff frequency"
-msgstr ""
-
-#: module_16.message03
-msgid "Z|Ω|impedance"
-msgstr ""
-
-#: module_16.message04
-msgid "C|nF|capacitor"
-msgstr ""
-
-#: module_16.message05
-msgid "L|µH|inductor"
-msgstr ""
-
-#: module_16.message06
-msgid "Calculation error, please check values!"
-msgstr ""
-
-#: module_17.message01
-msgid "Symmetric high pass T-section filter"
-msgstr ""
-
-#: module_17.message02
-msgid "f|kHz|cutoff frequency"
-msgstr ""
-
-#: module_17.message03
-msgid "Z|Ω|impedance"
-msgstr ""
-
-#: module_17.message04
-msgid "C|nF|capacitor"
-msgstr ""
-
-#: module_17.message05
-msgid "L|µH|inductor"
-msgstr ""
-
-#: module_17.message06
-msgid "Calculation error, please check values!"
-msgstr ""
-
-#: module_18.message01
-msgid "Symmetric high pass Pi-section filter"
-msgstr ""
-
-#: module_18.message02
-msgid "f|kHz|cutoff frequency"
-msgstr ""
-
-#: module_18.message03
-msgid "Z|Ω|impedance"
-msgstr ""
-
-#: module_18.message04
-msgid "C|nF|capacitor"
-msgstr ""
-
-#: module_18.message05
-msgid "L|µH|inductor"
-msgstr ""
-
-#: module_18.message06
-msgid "Calculation error, please check values!"
-msgstr ""
-
-#: module_19.message01
-msgid "Asymmetric band pass L-section filter"
-msgstr ""
-
-#: module_19.message02
-msgid "fmin|kHz|lower cutoff frequency"
-msgstr ""
-
-#: module_19.message03
-msgid "fmax|kHz|upper cutoff frequency"
-msgstr ""
-
-#: module_19.message04
-msgid "Z|Ω|impedance"
-msgstr ""
-
-#: module_19.message05
-msgid "C1|nF|capacitor"
-msgstr ""
-
-#: module_19.message06
-msgid "C2|nF|capacitor"
-msgstr ""
-
-#: module_19.message07
-msgid "L1|µH|inductor"
-msgstr ""
-
-#: module_19.message08
-msgid "L2|µH|inductor"
-msgstr ""
-
-#: module_19.message09
-msgid "Calculation error, please check values!"
-msgstr ""
-
-#: module_20.message01
-msgid "Asymmetric band pass T-section filter"
-msgstr ""
-
-#: module_20.message02
-msgid "fmin|kHz|lower cutoff frequency"
-msgstr ""
-
-#: module_20.message03
-msgid "fmax|kHz|upper cutoff frequency"
-msgstr ""
-
-#: module_20.message04
-msgid "Z|Ω|impedance"
-msgstr ""
-
-#: module_20.message05
-msgid "C1|nF|capacitor"
-msgstr ""
-
-#: module_20.message06
-msgid "C2|nF|capacitor"
-msgstr ""
-
-#: module_20.message07
-msgid "L1|µH|inductor"
-msgstr ""
-
-#: module_20.message08
-msgid "L2|µH|inductor"
-msgstr ""
-
-#: module_20.message09
-msgid "Calculation error, please check values!"
-msgstr ""
-
-#: module_21.message01
-msgid "Asymmetric band pass Pi-section filter"
-msgstr ""
-
-#: module_21.message02
-msgid "fmin|kHz|lower cutoff frequency"
-msgstr ""
-
-#: module_21.message03
-msgid "fmax|kHz|upper cutoff frequency"
-msgstr ""
-
-#: module_21.message04
-msgid "Z|Ω|impedance"
-msgstr ""
-
-#: module_21.message05
-msgid "C1|nF|capacitor"
-msgstr ""
-
-#: module_21.message06
-msgid "C2|nF|capacitor"
-msgstr ""
-
-#: module_21.message07
-msgid "L1|µH|inductor"
-msgstr ""
-
-#: module_21.message08
-msgid "L2|µH|inductor"
-msgstr ""
-
-#: module_21.message09
-msgid "Calculation error, please check values!"
-msgstr ""
-
-#: module_22.message01
-msgid "Symmetric band pass T-section filter"
-msgstr ""
-
-#: module_22.message02
-msgid "fmin|kHz|lower cutoff frequency"
-msgstr ""
-
-#: module_22.message03
-msgid "fmax|kHz|upper cutoff frequency"
-msgstr ""
-
-#: module_22.message04
-msgid "Z|Ω|impedance"
-msgstr ""
-
-#: module_22.message05
-msgid "C1|nF|capacitor"
-msgstr ""
-
-#: module_22.message06
-msgid "C2|nF|capacitor"
-msgstr ""
-
-#: module_22.message07
-msgid "L1|µH|inductor"
-msgstr ""
-
-#: module_22.message08
-msgid "L2|µH|inductor"
-msgstr ""
-
-#: module_22.message09
-msgid "Calculation error, please check values!"
-msgstr ""
-
-#: module_23.message01
-msgid "Asymmetric band stop L-section filter"
-msgstr ""
-
-#: module_23.message02
-msgid "fmin|kHz|lower cutoff frequency"
-msgstr ""
-
-#: module_23.message03
-msgid "fmax|kHz|upper cutoff frequency"
-msgstr ""
-
-#: module_23.message04
-msgid "Z|Ω|impedance"
-msgstr ""
-
-#: module_23.message05
-msgid "C1|nF|capacitor"
-msgstr ""
-
-#: module_23.message06
-msgid "C2|nF|capacitor"
-msgstr ""
-
-#: module_23.message07
-msgid "L1|µH|inductor"
-msgstr ""
-
-#: module_23.message08
-msgid "L2|µH|inductor"
-msgstr ""
-
-#: module_23.message09
-msgid "Calculation error, please check values!"
-msgstr ""
-
-#: module_24.message01
-msgid "Asymmetric band stop T-section filter"
-msgstr ""
-
-#: module_24.message02
-msgid "fmin|kHz|lower cutoff frequency"
-msgstr ""
-
-#: module_24.message03
-msgid "fmax|kHz|upper cutoff frequency"
-msgstr ""
-
-#: module_24.message04
-msgid "Z|Ω|impedance"
-msgstr ""
-
-#: module_24.message05
-msgid "C1|nF|capacitor"
-msgstr ""
-
-#: module_24.message06
-msgid "C2|nF|capacitor"
-msgstr ""
-
-#: module_24.message07
-msgid "L1|µH|inductor"
-msgstr ""
-
-#: module_24.message08
-msgid "L2|µH|inductor"
-msgstr ""
-
-#: module_24.message09
-msgid "Calculation error, please check values!"
-msgstr ""
-
-#: module_25.message01
-msgid "Asymmetric band stop Pi-section filter"
-msgstr ""
-
-#: module_25.message02
-msgid "fmin|kHz|lower cutoff frequency"
-msgstr ""
-
-#: module_25.message03
-msgid "fmax|kHz|upper cutoff frequency"
-msgstr ""
-
-#: module_25.message04
-msgid "Z|Ω|impedance"
-msgstr ""
-
-#: module_25.message05
-msgid "C1|nF|capacitor"
-msgstr ""
-
-#: module_25.message06
-msgid "C2|nF|capacitor"
-msgstr ""
-
-#: module_25.message07
-msgid "L1|µH|inductor"
-msgstr ""
-
-#: module_25.message08
-msgid "L2|µH|inductor"
-msgstr ""
-
-#: module_25.message09
-msgid "Calculation error, please check values!"
-msgstr ""
-
-#: module_26.message01
-msgid "Symmetric band stop T-section filter"
-msgstr ""
-
-#: module_26.message02
-msgid "fmin|kHz|lower cutoff frequency"
-msgstr ""
-
-#: module_26.message03
-msgid "fmax|kHz|upper cutoff frequency"
-msgstr ""
-
-#: module_26.message04
-msgid "Z|Ω|impedance"
-msgstr ""
-
-#: module_26.message05
-msgid "C1|nF|capacitor"
-msgstr ""
-
-#: module_26.message06
-msgid "C2|nF|capacitor"
-msgstr ""
-
-#: module_26.message07
-msgid "L1|µH|inductor"
-msgstr ""
-
-#: module_26.message08
-msgid "L2|µH|inductor"
-msgstr ""
-
-#: module_26.message09
-msgid "Calculation error, please check values!"
+msgid "R must not be more than 120 Ω!"
 msgstr ""
 
 #: tform1.button1.caption
@@ -919,6 +595,10 @@ msgstr ""
 
 #: tform1.button3.caption
 msgid "Reset data (F2)"
+msgstr ""
+
+#: tform1.caption
+msgid "Power supplies"
 msgstr ""
 
 #: tform1.checkbox1.caption
@@ -1082,7 +762,7 @@ msgid "About"
 msgstr ""
 
 #: tform2.label1.caption
-msgid "LC-circuits v"
+msgid "Power supplies v"
 msgstr ""
 
 #: tform2.label11.caption

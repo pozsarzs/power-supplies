@@ -1,4 +1,3 @@
-
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
@@ -135,784 +134,460 @@ msgid "On-line"
 msgstr "On-line"
 
 #: module_01.message01
-msgid "Collins-filter"
-msgstr "Collins-szűrő"
+msgid "Half wave rectifier"
+msgstr "Egyutas egyenirányító"
 
 #: module_01.message02
-msgid "Z1|kΩ|input impedance"
-msgstr "Z1|kΩ|bemeneti impedancia"
+msgid "Uout|V|output voltage"
+msgstr "Uout|V|kimeneti feszültség"
 
 #: module_01.message03
-msgid "Z2|kΩ|output impedance"
-msgstr "Z2|kΩ|kimeneti impedancia"
+msgid "Iout|A|output current"
+msgstr "Iout|A|kimeneti áram"
 
 #: module_01.message04
-msgid "f|MHz|frequency"
-msgstr "f|MHz|frekvencia"
+msgid "fin|Hz|freq. of input voltage"
+msgstr "fin|Hz|bemeneti fesz. frekvenciája"
 
 #: module_01.message05
-msgid "Q| |quality factor"
-msgstr "Q| |jósági tényező"
+msgid "Us|V|secunder voltage"
+msgstr "Us|V|szekunder feszültség"
 
 #: module_01.message06
-msgid "C1|pF|capacitor"
-msgstr "C1|pF|kondenzátor"
+msgid "Is|A|secunder current"
+msgstr "Is|A|szekunder áram"
 
 #: module_01.message07
-msgid "C2|pF|capacitor"
-msgstr "C2|pF|kondenzátor"
+msgid "Ur|V|diode reverse voltage"
+msgstr "Ur|V|dióda záróirányú feszültség"
 
 #: module_01.message08
-msgid "L|µH|inductor"
-msgstr "L|µH|tekercs"
+msgid "If|A|diode forward current"
+msgstr "If|A|dióda nyitóirányú áram"
 
 #: module_01.message09
+msgid "Uh|V|humming voltage"
+msgstr "Uh|V|búgófeszültség"
+
+#: module_01.message10
+msgid "fh|Hz|humming frequency"
+msgstr "fh|Hz|búgófrekvencia"
+
+#: module_01.message11
 msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
 
 #: module_02.message01
-msgid "Seefried impedance transformer"
-msgstr "Seefried impedancia átalakító"
+msgid "Full wave rectifier"
+msgstr "Kétutas egyenirányító"
 
 #: module_02.message02
-msgid "Z1|Ω|input impedance"
-msgstr "Z1|Ω|bemeneti impedancia"
+msgid "Uout|V|output voltage"
+msgstr "Uout|V|kimeneti feszültség"
 
 #: module_02.message03
-msgid "Z2|Ω|output impedance"
-msgstr "Z2|Ω|kimeneti impedancia"
+msgid "Iout|A|output current"
+msgstr "Iout|A|kimeneti áram"
 
 #: module_02.message04
-msgid "f|MHz|frequency"
-msgstr "f|MHz|frekvencia"
+msgid "fin|Hz|freq. of input voltage"
+msgstr "fin|Hz|bemeneti fesz. frekvenciája"
 
 #: module_02.message05
-msgid "C|pF|capacitor"
-msgstr "C|pF|kondenzátor"
+msgid "Us|V|secunder voltage"
+msgstr "Us|V|szekunder feszültség"
 
 #: module_02.message06
-msgid "L|µH|inductors"
-msgstr "L|µH|tekercs"
+msgid "Is|A|secunder current"
+msgstr "Is|A|szekunder áram"
 
 #: module_02.message07
+msgid "Ur|V|diode reverse voltage"
+msgstr "Ur|V|dióda záróirányú feszültség"
+
+#: module_02.message08
+msgid "If|A|diode forward current"
+msgstr "If|A|dióda nyitóirányú áram"
+
+#: module_02.message09
+msgid "Uh|V|humming voltage"
+msgstr "Uh|V|búgófeszültség"
+
+#: module_02.message10
+msgid "fh|Hz|humming frequency"
+msgstr "fh|Hz|búgófrekvencia"
+
+#: module_02.message11
 msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
 
 #: module_03.message01
-msgid "Two way crossover filter #1"
-msgstr "Kétutas keresztváltó szűrő 1."
+msgid "Graetz-bridge rectifier"
+msgstr "Graezt-hidas egyenirányító"
 
 #: module_03.message02
-msgid "f|kHz|crossover frequency"
-msgstr "f|kHz|keresztezési frekvencia"
+msgid "Uout|V|output voltage"
+msgstr "Uout|V|kimeneti feszültség"
 
 #: module_03.message03
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
+msgid "Iout|A|output current"
+msgstr "Iout|A|kimeneti áram"
 
 #: module_03.message04
-msgid "C|µF|capacitor"
-msgstr "C|µF|kondenzátor"
+msgid "fin|Hz|freq. of input voltage"
+msgstr "fin|Hz|bemeneti fesz. frekvenciája"
 
 #: module_03.message05
-msgid "L|µH|inductor"
-msgstr "L|µH|tekercs"
+msgid "Us|V|secunder voltage"
+msgstr "Us|V|szekunder feszültség"
 
 #: module_03.message06
+msgid "Is|A|secunder current"
+msgstr "Is|A|szekunder áram"
+
+#: module_03.message07
+msgid "Ur|V|diode reverse voltage"
+msgstr "Ur|V|dióda záróirányú feszültség"
+
+#: module_03.message08
+msgid "If|A|diode forward current"
+msgstr "If|A|dióda nyitóirányú áram"
+
+#: module_03.message09
+msgid "Uh|V|humming voltage"
+msgstr "Uh|V|búgófeszültség"
+
+#: module_03.message10
+msgid "fh|Hz|humming frequency"
+msgstr "fh|Hz|búgófrekvencia"
+
+#: module_03.message11
 msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
 
 #: module_04.message01
-msgid "Two way crossover filter #2"
-msgstr "Kétutas keresztváltó szűrő 2."
+msgid "Buffered half wave rectifier"
+msgstr "Pufferelt egyutas egyenirányító"
 
 #: module_04.message02
-msgid "f|kHz|crossover frequency"
-msgstr "f|kHz|keresztezési frekvencia"
+msgid "Uout|V|output voltage"
+msgstr "Uout|V|kimeneti feszültség"
 
 #: module_04.message03
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
+msgid "Iout|A|output current"
+msgstr "Iout|A|kimeneti áram"
 
 #: module_04.message04
-msgid "C|µF|capacitor"
-msgstr "C|µF|kondenzátor"
+msgid "fin|Hz|freq. of input voltage"
+msgstr "fin|Hz|bemeneti fesz. frekvenciája"
 
 #: module_04.message05
-msgid "L|µH|inductor"
-msgstr "L|µH|tekercs"
+msgid "Us|V|secunder voltage"
+msgstr "Us|V|szekunder feszültség"
 
 #: module_04.message06
+msgid "Is|A|secunder current"
+msgstr "Is|A|szekunder áram"
+
+#: module_04.message07
+msgid "Ur|V|diode reverse voltage"
+msgstr "Ur|V|dióda záróirányú feszültség"
+
+#: module_04.message08
+msgid "If|A|diode forward current"
+msgstr "If|A|dióda nyitóirányú áram"
+
+#: module_04.message09
+msgid "Uh|V|humming voltage"
+msgstr "Uh|V|búgófeszültség"
+
+#: module_04.message10
+msgid "fh|Hz|humming frequency"
+msgstr "fh|Hz|búgófrekvencia"
+
+#: module_04.message11
+msgid "C|uF|buffer capacitor"
+msgstr "Uc|V|pufferkondenzátor"
+
+#: module_04.message12
+msgid "Uc|V|voltage of buffer capacitor"
+msgstr "Uc|V|pufferkondenzátor feszültsége"
+
+#: module_04.message13
 msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
 
 #: module_05.message01
-msgid "Two way crossover filter #3"
-msgstr "Kétutas keresztváltó szűrő 3."
+msgid "Buffered full wave rectifier"
+msgstr "Pufferelt kétutas egyenirányító"
 
 #: module_05.message02
-msgid "f|kHz|crossover frequency"
-msgstr "f|kHz|keresztezési frekvencia"
+msgid "Uout|V|output voltage"
+msgstr "Uout|V|kimeneti feszültség"
 
 #: module_05.message03
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
+msgid "Iout|A|output current"
+msgstr "Iout|A|kimeneti áram"
 
 #: module_05.message04
-msgid "C|µF|capacitor"
-msgstr "C|µF|kondenzátor"
+msgid "fin|Hz|freq. of input voltage"
+msgstr "fin|Hz|bemeneti fesz. frekvenciája"
 
 #: module_05.message05
-msgid "L1|µH|inductor"
-msgstr "L1|µH|tekercs"
+msgid "Us|V|secunder voltage"
+msgstr "Us|V|szekunder feszültség"
 
 #: module_05.message06
-msgid "L2|µH|inductor"
-msgstr "L2|µH|tekercs"
+msgid "Is|A|secunder current"
+msgstr "Is|A|szekunder áram"
 
 #: module_05.message07
+msgid "Ur|V|diode reverse voltage"
+msgstr "Ur|V|dióda záróirányú feszültség"
+
+#: module_05.message08
+msgid "If|A|diode forward current"
+msgstr "If|A|dióda nyitóirányú áram"
+
+#: module_05.message09
+msgid "Uh|V|humming voltage"
+msgstr "Uh|V|búgófeszültség"
+
+#: module_05.message10
+msgid "fh|Hz|humming frequency"
+msgstr "fh|Hz|búgófrekvencia"
+
+#: module_05.message11
+msgid "C|uF|buffer capacitor"
+msgstr "Uc|V|pufferkondenzátor"
+
+#: module_05.message12
+msgid "Uc|V|voltage of buffer capacitor"
+msgstr "Uc|V|pufferkondenzátor feszültsége"
+
+#: module_05.message13
 msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
 
 #: module_06.message01
-msgid "Two way crossover filter #4"
-msgstr "Kétutas keresztváltó szűrő 4."
+msgid "Buffered Graetz-bridge rectifier"
+msgstr "Pufferelt Graetz-hidas egyenirányító"
 
 #: module_06.message02
-msgid "f|kHz|crossover frequency"
-msgstr "f|kHz|keresztezési frekvencia"
+msgid "Uout|V|output voltage"
+msgstr "Uout|V|kimeneti feszültség"
 
 #: module_06.message03
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
+msgid "Iout|A|output current"
+msgstr "Iout|A|kimeneti áram"
 
 #: module_06.message04
-msgid "C|µF|capacitor"
-msgstr "C|µF|kondenzátor"
+msgid "fin|Hz|freq. of input voltage"
+msgstr "fin|Hz|bemeneti fesz. frekvenciája"
 
 #: module_06.message05
-msgid "L|µH|inductor"
-msgstr "L|µH|tekercs"
+msgid "Us|V|secunder voltage"
+msgstr "Us|V|szekunder feszültség"
 
 #: module_06.message06
+msgid "Is|A|secunder current"
+msgstr "Is|A|szekunder áram"
+
+#: module_06.message07
+msgid "Ur|V|diode reverse voltage"
+msgstr "Ur|V|dióda záróirányú feszültség"
+
+#: module_06.message08
+msgid "If|A|diode forward current"
+msgstr "If|A|dióda nyitóirányú áram"
+
+#: module_06.message09
+msgid "Uh|V|humming voltage"
+msgstr "Uh|V|búgófeszültség"
+
+#: module_06.message10
+msgid "fh|Hz|humming frequency"
+msgstr "fh|Hz|búgófrekvencia"
+
+#: module_06.message11
+msgid "C|uF|buffer capacitor"
+msgstr "Uc|V|puffer kondenzátor"
+
+#: module_06.message12
+msgid "Uc|V|voltage of buffer capacitor"
+msgstr "Uc|V|puffer kondenzátor feszültsége"
+
+#: module_06.message13
 msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
 
 #: module_07.message01
-msgid "Two way crossover filter #5"
-msgstr "Kétutas keresztváltó szűrő 5."
+msgid "Capacitive divider for serial heater circuit (AC 50Hz)"
+msgstr "Kapacitív előtét soros fűtőkörhöz (AC 50Hz)"
 
 #: module_07.message02
-msgid "f|kHz|crossover frequency"
-msgstr "f|kHz|keresztezési frekvencia"
+msgid "Uin|V|input AC voltage"
+msgstr "Uin|V|bemeneti feszültség (AC)"
 
 #: module_07.message03
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
+msgid "Uh|V|full heater voltage"
+msgstr "Uh|V|teljes fűtőfeszültség"
 
 #: module_07.message04
-msgid "C1|µF|capacitor"
-msgstr "C1|µF|kondenzátor"
+msgid "Ih|A|heater current"
+msgstr "Ih|A|fűtőáram"
 
 #: module_07.message05
-msgid "C1|µF|capacitor"
-msgstr "C1|µF|kondenzátor"
+msgid "C|uF|serial capacitor"
+msgstr "C|uF|puffer kondenzátor"
 
 #: module_07.message06
-msgid "C2|µF|capacitor"
-msgstr "C2|µF|kondenzátor"
-
-#: module_07.message07
-msgid "C3|µF|capacitor"
-msgstr "C3|µF|kondenzátor"
-
-#: module_07.message08
-msgid "L1|µH|inductor"
-msgstr "L1|µH|tekercs"
-
-#: module_07.message09
-msgid "L2|µH|inductor"
-msgstr "L2|µH|tekercs"
-
-#: module_07.message10
-msgid "L3|µH|inductor"
-msgstr "L3|µH|tekercs"
-
-#: module_07.message11
 msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
 
 #: module_08.message01
-msgid "Two way crossover filter #6"
-msgstr "Kétutas keresztváltó szűrő 6."
+msgid "Voltage regulator with Zener-diode"
+msgstr "Feszültség stabilizátor Zener-diódával"
 
 #: module_08.message02
-msgid "f|kHz|crossover frequency"
-msgstr "f|kHz|keresztezési frekvencia"
+msgid "D1|Uz|V|Zener voltage"
+msgstr "D1|Uz|V|Zener feszültség"
 
 #: module_08.message03
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
+msgid "D1|Izmin|mA|minimal Zener current"
+msgstr "D1|Izmin|mA|minimális Zener áram"
 
 #: module_08.message04
-msgid "C1|µF|capacitor"
-msgstr "C1|µF|kondenzátor"
+msgid "D1|Izmax|mA|maximal Zener current"
+msgstr "D1|Izmax|mA|maximális Zener áram"
 
 #: module_08.message05
-msgid "C1|µF|capacitor"
-msgstr "C1|µF|kondenzátor"
+msgid "Uinmin|V|minimal input voltage"
+msgstr "Uinmin|V|min. bemeneti feszültség"
 
 #: module_08.message06
-msgid "C2|µF|capacitor"
-msgstr "C2|µF|kondenzátor"
+msgid "Uinmax|V|maximal input voltage"
+msgstr "Uinmax|V|max. bemeneti feszültség"
 
 #: module_08.message07
-msgid "C3|µF|capacitor"
-msgstr "C3|µF|kondenzátor"
+msgid "Ioutmin|mA|minimal output current"
+msgstr "Ioutmin|mA|minimalis kimeneti áram"
 
 #: module_08.message08
-msgid "L1|µH|inductor"
-msgstr "L1|µH|tekercs"
+msgid "Ioutmax|mA|maximal output current"
+msgstr "Ioutmax|mA|maximális kimeneti áram"
 
 #: module_08.message09
-msgid "L2|µH|inductor"
-msgstr "L2|µH|tekercs"
+msgid "Rbmin|kΩ|minimal ballast resistor"
+msgstr "Rbmin|kΩ|minimális előtét ellenállás"
 
 #: module_08.message10
-msgid "L3|µH|inductor"
-msgstr "L3|µH|tekercs"
+msgid "Rbmax|kΩ|maximal ballast resistor"
+msgstr "Rbmax|kΩ|maximális előtét ellenállás"
 
 #: module_08.message11
 msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
 
 #: module_09.message01
-msgid "Asymmetric low pass L-section filter"
-msgstr "Aszimmetrikus aluláteresztő L szűrő"
+msgid "Voltage regulator with gas filled voltage stabiliser tube"
+msgstr "Feszültség stabilizátor gáztöltésű stabilizátorcsővel"
 
 #: module_09.message02
-msgid "f|kHz|cutoff frequency"
-msgstr "f|kHz|vágási frekvencia"
+msgid "V1|Ui|V|ignition voltage"
+msgstr "V1|Ui|V|gyújtófeszültség"
 
 #: module_09.message03
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
+msgid "V1|Uamin|V|minimal anode voltage"
+msgstr "V1|Uamin|V|minimális anódfeszültség"
 
 #: module_09.message04
-msgid "C|nF|capacitor"
-msgstr "C|nF|kondenzátor"
+msgid "V1|Uamax|V|maximal anode voltage"
+msgstr "V1|Uamax|V|maximális anódfeszültség"
 
 #: module_09.message05
-msgid "L|µH|inductor"
-msgstr "L|µH|tekercs"
+msgid "V1|Iamin|mA|minimal anode current"
+msgstr "V1|Iamin|mA|minimális anódáram"
 
 #: module_09.message06
+msgid "V1|Iamax|mA|maximal anode current"
+msgstr "V1|Iamax|mA|maximális anódáram"
+
+#: module_09.message07
+msgid "Uinmin|V|minimal input voltage"
+msgstr "Uinmax|V|max. bemeneti feszültség"
+
+#: module_09.message08
+msgid "Uinmax|V|maximal input voltage"
+msgstr "Uinmax|V|max. bemeneti feszültség"
+
+#: module_09.message09
+msgid "Uout|V|output voltage"
+msgstr "Uout|V|kimeneti feszültség"
+
+#: module_09.message10
+msgid "Iout|mA|output current"
+msgstr "Iout|mA|kimeneti áram"
+
+#: module_09.message11
+msgid "Rbmin|kΩ|minimal ballast resistor"
+msgstr "Rbmin|kΩ|minimális előtét ellenállás"
+
+#: module_09.message12
+msgid "Rbmax|kΩ|maximal ballast resistor"
+msgstr "Rbmax|kΩ|maximális előtét ellenállás"
+
+#: module_09.message13
 msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
+
+#: module_09.message14
+msgid "Increase the input voltage!"
+msgstr "Emelje a bemeneti feszültséget!"
 
 #: module_10.message01
-msgid "Asymmetric low pass Pi-section filter"
-msgstr "Aszimmetrikus aluláteresztő Pi szűrő"
+msgid "Voltage regulator with LM117/LM317/LM237/LM337 integrated circuit"
+msgstr "Feszültség stabilizátor LM117/LM317/LM237/LM337 integrált áramkörrel"
 
 #: module_10.message02
-msgid "f|kHz|cutoff frequency"
-msgstr "f|kHz|vágási frekvencia"
+msgid "R1|Ω|resistor, typically 240 Ω"
+msgstr "R1|Ω|ellenállás, tipikus értéke 240 Ω"
 
 #: module_10.message03
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
+msgid "R2|Ω|resistor"
+msgstr "R2|Ω|ellenállás"
 
 #: module_10.message04
-msgid "C|nF|capacitor"
-msgstr "C|nF|kondenzátor"
+msgid "Uout|V|output voltage"
+msgstr "Uout|V|kimeneti feszültség"
 
 #: module_10.message05
-msgid "L|µH|inductor"
-msgstr "L|µH|tekercs"
-
-#: module_10.message06
 msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
 
 #: module_11.message01
-msgid "Asymmetric low pass T-section filter"
-msgstr "Aszimmetrikus aluláteresztő T szűrő"
+msgid "Current regulator with LM117/LM317/LM237/LM337 integrated circuit"
+msgstr "Áram stabilizátor LM117/LM317/LM237/LM337 integrált áramkörrel"
 
 #: module_11.message02
-msgid "f|kHz|cutoff frequency"
-msgstr "f|kHz|vágási frekvencia"
+msgid "Iout|mA|maximal output current"
+msgstr "Iout|mA|maximális kimenő áram"
 
 #: module_11.message03
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
+msgid "R|Ω|resistor"
+msgstr "R|Ω|ellenállás"
 
 #: module_11.message04
-msgid "C|nF|capacitor"
-msgstr "C|nF|kondenzátor"
+msgid "Calculation error, please check values!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
 
 #: module_11.message05
-msgid "L|µH|inductor"
-msgstr "L|µH|tekercs"
+msgid "R must not be less than 0.8 Ω!"
+msgstr "Az R nem lehet kisebb, mint 0,8 Ω! "
 
 #: module_11.message06
-msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
-
-#: module_12.message01
-msgid "Symmetric low pass T-section filter"
-msgstr "Szimmetrikus aluláteresztő T szűrő"
-
-#: module_12.message02
-msgid "f|kHz|cutoff frequency"
-msgstr "f|kHz|vágási frekvencia"
-
-#: module_12.message03
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
-
-#: module_12.message04
-msgid "C|nF|capacitor"
-msgstr "C|nF|kondenzátor"
-
-#: module_12.message05
-msgid "L|µH|inductor"
-msgstr "L|µH|tekercs"
-
-#: module_12.message06
-msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
-
-#: module_13.message01
-msgid "Symmetric low pass Pi-section filter"
-msgstr "Szimmetrikus aluláteresztő Pi szűrő"
-
-#: module_13.message02
-msgid "f|kHz|cutoff frequency"
-msgstr "f|kHz|vágási frekvencia"
-
-#: module_13.message03
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
-
-#: module_13.message04
-msgid "C|nF|capacitor"
-msgstr "C|nF|kondenzátor"
-
-#: module_13.message05
-msgid "L|µH|inductor"
-msgstr "L|µH|tekercs"
-
-#: module_13.message06
-msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
-
-#: module_14.message01
-msgid "Asymmetric high pass L-section filter"
-msgstr "Aszimmetrikus felüláteresztő L szűrő"
-
-#: module_14.message02
-msgid "f|kHz|cutoff frequency"
-msgstr "f|kHz|vágási frekvencia"
-
-#: module_14.message03
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
-
-#: module_14.message04
-msgid "C|nF|capacitor"
-msgstr "C|nF|kondenzátor"
-
-#: module_14.message05
-msgid "L|µH|inductor"
-msgstr "L|µH|tekercs"
-
-#: module_14.message06
-msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
-
-#: module_15.message01
-msgid "Asymmetric high pass T-section filter"
-msgstr "Aszimmetrikus felüláteresztő T szűrő"
-
-#: module_15.message02
-msgid "f|kHz|cutoff frequency"
-msgstr "f|kHz|vágási frekvencia"
-
-#: module_15.message03
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
-
-#: module_15.message04
-msgid "C|nF|capacitor"
-msgstr "C|nF|kondenzátor"
-
-#: module_15.message05
-msgid "L|µH|inductor"
-msgstr "L|µH|tekercs"
-
-#: module_15.message06
-msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
-
-#: module_16.message01
-msgid "Asymmetric high pass Pi-section filter"
-msgstr "Aszimmetrikus felüláteresztő Pi szűrő"
-
-#: module_16.message02
-msgid "f|kHz|cutoff frequency"
-msgstr "f|kHz|vágási frekvencia"
-
-#: module_16.message03
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
-
-#: module_16.message04
-msgid "C|nF|capacitor"
-msgstr "C|nF|kondenzátor"
-
-#: module_16.message05
-msgid "L|µH|inductor"
-msgstr "L|µH|tekercs"
-
-#: module_16.message06
-msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
-
-#: module_17.message01
-msgid "Symmetric high pass T-section filter"
-msgstr "Szimmetrikus felüláteresztő T szűrő"
-
-#: module_17.message02
-msgid "f|kHz|cutoff frequency"
-msgstr "f|kHz|vágási frekvencia"
-
-#: module_17.message03
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
-
-#: module_17.message04
-msgid "C|nF|capacitor"
-msgstr "C|nF|kondenzátor"
-
-#: module_17.message05
-msgid "L|µH|inductor"
-msgstr "L|µH|tekercs"
-
-#: module_17.message06
-msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
-
-#: module_18.message01
-msgid "Symmetric high pass Pi-section filter"
-msgstr "Szimmetrikus felüláteresztő Pi szűrő"
-
-#: module_18.message02
-msgid "f|kHz|cutoff frequency"
-msgstr "f|kHz|vágási frekvencia"
-
-#: module_18.message03
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
-
-#: module_18.message04
-msgid "C|nF|capacitor"
-msgstr "C|nF|kondenzátor"
-
-#: module_18.message05
-msgid "L|µH|inductor"
-msgstr "L|µH|tekercs"
-
-#: module_18.message06
-msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
-
-#: module_19.message01
-msgid "Asymmetric band pass L-section filter"
-msgstr "Aszimmetrikus sáváteresztő L szűrő"
-
-#: module_19.message02
-msgid "fmin|kHz|lower cutoff frequency"
-msgstr "fmin|kHz|alsó vágási frekvencia"
-
-#: module_19.message03
-msgid "fmax|kHz|upper cutoff frequency"
-msgstr "fmax|kHz|felső vágási frekvencia"
-
-#: module_19.message04
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
-
-#: module_19.message05
-msgid "C1|nF|capacitor"
-msgstr "C1|nF|kondenzátor"
-
-#: module_19.message06
-msgid "C2|nF|capacitor"
-msgstr "C2|nF|kondenzátor"
-
-#: module_19.message07
-msgid "L1|µH|inductor"
-msgstr "L1|µH|tekercs"
-
-#: module_19.message08
-msgid "L2|µH|inductor"
-msgstr "L2|µH|tekercs"
-
-#: module_19.message09
-msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
-
-#: module_20.message01
-msgid "Asymmetric band pass T-section filter"
-msgstr "Aszimmetrikus sáváteresztő T szűrő"
-
-#: module_20.message02
-msgid "fmin|kHz|lower cutoff frequency"
-msgstr "fmin|kHz|alsó vágási frekvencia"
-
-#: module_20.message03
-msgid "fmax|kHz|upper cutoff frequency"
-msgstr "fmax|kHz|felső vágási frekvencia"
-
-#: module_20.message04
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
-
-#: module_20.message05
-msgid "C1|nF|capacitor"
-msgstr "C1|nF|kondenzátor"
-
-#: module_20.message06
-msgid "C2|nF|capacitor"
-msgstr "C2|nF|kondenzátor"
-
-#: module_20.message07
-msgid "L1|µH|inductor"
-msgstr "L1|µH|tekercs"
-
-#: module_20.message08
-msgid "L2|µH|inductor"
-msgstr "L2|µH|tekercs"
-
-#: module_20.message09
-msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
-
-#: module_21.message01
-msgid "Asymmetric band pass Pi-section filter"
-msgstr "Aszimmetrikus sáváteresztő  Pi szűrő"
-
-#: module_21.message02
-msgid "fmin|kHz|lower cutoff frequency"
-msgstr "fmin|kHz|alsó vágási frekvencia"
-
-#: module_21.message03
-msgid "fmax|kHz|upper cutoff frequency"
-msgstr "fmax|kHz|felső vágási frekvencia"
-
-#: module_21.message04
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
-
-#: module_21.message05
-msgid "C1|nF|capacitor"
-msgstr "C1|nF|kondenzátor"
-
-#: module_21.message06
-msgid "C2|nF|capacitor"
-msgstr "C2|nF|kondenzátor"
-
-#: module_21.message07
-msgid "L1|µH|inductor"
-msgstr "L1|µH|tekercs"
-
-#: module_21.message08
-msgid "L2|µH|inductor"
-msgstr "L2|µH|tekercs"
-
-#: module_21.message09
-msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
-
-#: module_22.message01
-msgid "Symmetric band pass T-section filter"
-msgstr "Szimmetrikus sáváteresztő T szűrő"
-
-#: module_22.message02
-msgid "fmin|kHz|lower cutoff frequency"
-msgstr "fmin|kHz|alsó vágási frekvencia"
-
-#: module_22.message03
-msgid "fmax|kHz|upper cutoff frequency"
-msgstr "fmax|kHz|felső vágási frekvencia"
-
-#: module_22.message04
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
-
-#: module_22.message05
-msgid "C1|nF|capacitor"
-msgstr "C1|nF|kondenzátor"
-
-#: module_22.message06
-msgid "C2|nF|capacitor"
-msgstr "C2|nF|kondenzátor"
-
-#: module_22.message07
-msgid "L1|µH|inductor"
-msgstr "L1|µH|tekercs"
-
-#: module_22.message08
-msgid "L2|µH|inductor"
-msgstr "L2|µH|tekercs"
-
-#: module_22.message09
-msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
-
-#: module_23.message01
-msgid "Asymmetric band stop L-section filter"
-msgstr "Aszimmetrikus sávzáró L szűrő"
-
-#: module_23.message02
-msgid "fmin|kHz|lower cutoff frequency"
-msgstr "fmin|kHz|alsó vágási frekvencia"
-
-#: module_23.message03
-msgid "fmax|kHz|upper cutoff frequency"
-msgstr "fmax|kHz|felső vágási frekvencia"
-
-#: module_23.message04
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
-
-#: module_23.message05
-msgid "C1|nF|capacitor"
-msgstr "C1|nF|kondenzátor"
-
-#: module_23.message06
-msgid "C2|nF|capacitor"
-msgstr "C2|nF|kondenzátor"
-
-#: module_23.message07
-msgid "L1|µH|inductor"
-msgstr "L1|µH|tekercs"
-
-#: module_23.message08
-msgid "L2|µH|inductor"
-msgstr "L2|µH|tekercs"
-
-#: module_23.message09
-msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
-
-#: module_24.message01
-msgid "Asymmetric band stop T-section filter"
-msgstr "Aszimmetrikus sávzáró T szűrő"
-
-#: module_24.message02
-msgid "fmin|kHz|lower cutoff frequency"
-msgstr "fmin|kHz|alsó vágási frekvencia"
-
-#: module_24.message03
-msgid "fmax|kHz|upper cutoff frequency"
-msgstr "fmax|kHz|felső vágási frekvencia"
-
-#: module_24.message04
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
-
-#: module_24.message05
-msgid "C1|nF|capacitor"
-msgstr "C1|nF|kondenzátor"
-
-#: module_24.message06
-msgid "C2|nF|capacitor"
-msgstr "C2|nF|kondenzátor"
-
-#: module_24.message07
-msgid "L1|µH|inductor"
-msgstr "L1|µH|tekercs"
-
-#: module_24.message08
-msgid "L2|µH|inductor"
-msgstr "L2|µH|tekercs"
-
-#: module_24.message09
-msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
-
-#: module_25.message01
-msgid "Asymmetric band stop Pi-section filter"
-msgstr "Aszimmetrikus sávzáró Pi szűrő"
-
-#: module_25.message02
-msgid "fmin|kHz|lower cutoff frequency"
-msgstr "fmin|kHz|alsó vágási frekvencia"
-
-#: module_25.message03
-msgid "fmax|kHz|upper cutoff frequency"
-msgstr "fmax|kHz|felső vágási frekvencia"
-
-#: module_25.message04
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
-
-#: module_25.message05
-msgid "C1|nF|capacitor"
-msgstr "C1|nF|kondenzátor"
-
-#: module_25.message06
-msgid "C2|nF|capacitor"
-msgstr "C2|nF|kondenzátor"
-
-#: module_25.message07
-msgid "L1|µH|inductor"
-msgstr "L1|µH|tekercs"
-
-#: module_25.message08
-msgid "L2|µH|inductor"
-msgstr "L2|µH|tekercs"
-
-#: module_25.message09
-msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
-
-#: module_26.message01
-msgid "Symmetric band stop T-section filter"
-msgstr "Szimmetrikus sávzáró T szűrő"
-
-#: module_26.message02
-msgid "fmin|kHz|lower cutoff frequency"
-msgstr "fmin|kHz|alsó vágási frekvencia"
-
-#: module_26.message03
-msgid "fmax|kHz|upper cutoff frequency"
-msgstr "fmax|kHz|felső vágási frekvencia"
-
-#: module_26.message04
-msgid "Z|Ω|impedance"
-msgstr "Z|Ω|impedancia"
-
-#: module_26.message05
-msgid "C1|nF|capacitor"
-msgstr "C1|nF|kondenzátor"
-
-#: module_26.message06
-msgid "C2|nF|capacitor"
-msgstr "C2|nF|kondenzátor"
-
-#: module_26.message07
-msgid "L1|µH|inductor"
-msgstr "L1|µH|tekercs"
-
-#: module_26.message08
-msgid "L2|µH|inductor"
-msgstr "L2|µH|tekercs"
-
-#: module_26.message09
-msgid "Calculation error, please check values!"
-msgstr "Számítási hiba, ellenőrizze a megadott értékeket!"
+msgid "R must not be more than 120 Ω!"
+msgstr "Az R nem lehet nagyobb, mint 120 Ω!"
 
 #: TFORM1.BUTTON1.CAPTION
 msgid "Calculate! (F3)"
@@ -921,6 +596,10 @@ msgstr "&Számolj! (F3)"
 #: TFORM1.BUTTON3.CAPTION
 msgid "Reset data (F2)"
 msgstr "Adatok törlése (F2)"
+
+#: tform1.caption
+msgid "Power supplies"
+msgstr "Tápegységek"
 
 #: TFORM1.CHECKBOX1.CAPTION
 msgid "Hin&t"
@@ -1083,8 +762,8 @@ msgid "About"
 msgstr "Névjegy"
 
 #: TFORM2.LABEL1.CAPTION
-msgid "LC-circuits v"
-msgstr "LC-circuits v"
+msgid "Power supplies v"
+msgstr "Power supplies v"
 
 #: TFORM2.LABEL11.CAPTION
 msgid "Copyright (C) 2011-2016 Pozsár Zsolt"
