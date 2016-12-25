@@ -5,7 +5,7 @@
 # | Global makefile for Unix-like systems                                      |
 # +----------------------------------------------------------------------------+
 
-name		= power_supplies
+name		= powersupplies
 version		= @version@
 architecture	= @architecture@
 os              = @os@

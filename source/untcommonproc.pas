@@ -37,7 +37,7 @@ var
   savehistory: boolean;                                     // save load history
   appmode: byte;                                               // operation mode
 const
-  APPNAME='power_supplies';
+  APPNAME='powersupplies';
   EMAIL='pozsarzs@gmail.com';
   HOMEPAGE='http://www.pozsarzs.hu';
   VERSION='0.4.1';

@@ -58,7 +58,7 @@
     </RequiredPackages>
     <Units Count="18">
       <Unit0>
-        <Filename Value="power_supplies.lpr"/>
+        <Filename Value="powersupplies.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>

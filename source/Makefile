@@ -7,8 +7,8 @@
 
 include ../Makefile.global
 
-srcfiles = power_supplies.lpr
-binfiles = power_supplies
+srcfiles = powersupplies.lpr
+binfiles = powersupplies
 
 all:
 	@echo "- Compiling source code..."

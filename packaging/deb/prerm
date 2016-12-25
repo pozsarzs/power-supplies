@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 # Automatically added by dh_installdocs
-if [ \( "$1" = "upgrade" -o "$1" = "remove" \) -a -L /usr/doc/power_supplies ]; then
-  rm -f /usr/doc/power_supplies
+if [ \( "$1" = "upgrade" -o "$1" = "remove" \) -a -L /usr/doc/powersupplies ]; then
+  rm -f /usr/doc/powersupplies
 fi
 # End automatically added section

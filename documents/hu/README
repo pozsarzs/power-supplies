@@ -28,24 +28,24 @@ Licence elfogadása és betartása.
 2. Telepítő csomagok
 ~~~~~~~~~~~~~~~~~~~~
 a. FreeBSD
-   power_supplies-0.4.1-FreeBSD-Port.shar   port csomag
-   power_supplies-0.4.1.txz                 bináris csomag
+   powersupplies-0.4.1-FreeBSD-Port.shar   port csomag
+   powersupplies-0.4.1.txz                 bináris csomag
 
 b. Linux
-   power_supplies-0.4.1-1.i586.rpm          bináris csomag
-   power_supplies-0.4.1-i586-1.txz          bináris csomag
-   power_supplies-0.4.1-i586.bin            telepítő program
-   power_supplies-0.4.1-i586.tar.gz         bináris csomag
-   power_supplies-0.4.1.x86.package         bináris csomag
-   power_supplies_0.4.1-1_i386.deb          bináris csomag
+   powersupplies-0.4.1-1.i586.rpm          bináris csomag
+   powersupplies-0.4.1-i586-1.txz          bináris csomag
+   powersupplies-0.4.1-i586.bin            telepítő program
+   powersupplies-0.4.1-i586.tar.gz         bináris csomag
+   powersupplies-0.4.1.x86.package         bináris csomag
+   powersupplies_0.4.1-1_i386.deb          bináris csomag
 
 c. Windows
-   power_supplies-0.4.1-win32.exe           telepítő alkalmazás
-   power_supplies-0.4.1-win32.msi           bináris csomag
-   power_supplies-0.4.1-win32.zip           bináris csomag
+   powersupplies-0.4.1-win32.exe           telepítő alkalmazás
+   powersupplies-0.4.1-win32.msi           bináris csomag
+   powersupplies-0.4.1-win32.zip           bináris csomag
 
 d. forrűskód
-   power_supplies-0.4.1.tar.gz              forrásnyelvű csomag
+   powersupplies-0.4.1.tar.gz              forrásnyelvű csomag
 
 3. Beállítások
 ~~~~~~~~~~~~~~

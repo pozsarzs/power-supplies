@@ -28,24 +28,24 @@ Union Public Licence.
 2. Installer packages
 ~~~~~~~~~~~~~~~~~~~~~
 a. for FreeBSD
-   power_supplies-0.4.1-FreeBSD-Port.shar   port package
-   power_supplies-0.4.1.txz                 binary package
+   powersupplies-0.4.1-FreeBSD-Port.shar   port package
+   powersupplies-0.4.1.txz                 binary package
 
 b. for Linux
-   power_supplies-0.4.1-1.i586.rpm          binary package
-   power_supplies-0.4.1-i586-1.txz          binary package
-   power_supplies-0.4.1-i586.bin            installer programme
-   power_supplies-0.4.1-i586.tar.gz         binary package
-   power_supplies-0.4.1.x86.package         binary package
-   power_supplies_0.4.1-1_i386.deb          binary package
+   powersupplies-0.4.1-1.i586.rpm          binary package
+   powersupplies-0.4.1-i586-1.txz          binary package
+   powersupplies-0.4.1-i586.bin            installer programme
+   powersupplies-0.4.1-i586.tar.gz         binary package
+   powersupplies-0.4.1.x86.package         binary package
+   powersupplies_0.4.1-1_i386.deb          binary package
 
 c. for Windows
-   power_supplies-0.4.1-win32.exe           installer application
-   power_supplies-0.4.1-win32.msi           binary package
-   power_supplies-0.4.1-win32.zip           binary package
+   powersupplies-0.4.1-win32.exe           installer application
+   powersupplies-0.4.1-win32.msi           binary package
+   powersupplies-0.4.1-win32.zip           binary package
 
 d. source code
-   power_supplies-0.4.1.tar.gz              source package
+   powersupplies-0.4.1.tar.gz              source package
 
 3. Settings
 ~~~~~~~~~~~
