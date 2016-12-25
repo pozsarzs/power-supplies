@@ -49,7 +49,7 @@ set FPFLAG7=-Fu%LAZ%\packager\units\%ARCH%-%OS%
 cd source
 echo Compiling source code...
 echo.
-%PPC% %FPFLAG1% %FPFLAG2% %FPFLAG3% %FPFLAG4% %FPFLAG5% %FPFLAG6% %FPFLAG7% power_supplies.lpr
+%PPC% %FPFLAG1% %FPFLAG2% %FPFLAG3% %FPFLAG4% %FPFLAG5% %FPFLAG6% %FPFLAG7% powersupplies.lpr
 echo.
 if errorlevel 0 echo Run 'build.bat install' to install application.
 cd ..
@@ -73,7 +73,7 @@ if not exist "%INSTDIR%" ( echo Error: target directory not found! & goto end )
 set INSTDIR=%INSTDIR%\%NAME%
 echo Selected target folder: %INSTDIR%
 echo %INSTDIR% > install.log
-if not exist "source\lib\%ARCH%-%OS%\power_supplies.exe" ( echo Error: firstly run "build.bat" to compile source code! & goto end )
+if not exist "source\lib\%ARCH%-%OS%\powersupplies.exe" ( echo Error: firstly run "build.bat" to compile source code! & goto end )
 echo Installing application...
 md %INSTDIR%
 if not errorlevel 0 ( echo Error: cannot install application! & goto end )
