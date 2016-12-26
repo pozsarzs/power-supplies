@@ -1,6 +1,6 @@
 # $FreeBSD$
 
-PORTNAME=	power_supplies
+PORTNAME=	powersupplies
 PORTVERSION=	0.4.1
 CATEGORIES=	science
 MASTER_SITES=	http://www.pozsarzs.hu/sources/

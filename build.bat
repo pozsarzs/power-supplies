@@ -8,7 +8,7 @@ rem ----------------------------------------------------------------------------
 
 set PPC=c:\lazarus\fpc\2.6.4\bin\i386-win32\ppc386.exe
 set LAZ=c:\lazarus\
-set NAME=Power Supplies
+set NAME=PowerSupplies
 set /p VERSION=<documents\VERSION
 set OS=win32
 set ARCH=i386
